@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HIT Inspections - Professional Home Inspection Services",
-  description: "Get professional home inspection services from certified inspectors. Comprehensive reports and affordable pricing.",
+  title: \"PMC Solutions - Professional Project Management Consultancy\",
+  description: \"Project Management Consultancy, Quality Assurance, Handover Inspection, and Interior Solutions for residential, commercial, and industrial projects.\",
 };
 
 export default function RootLayout({

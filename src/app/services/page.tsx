@@ -8,7 +8,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
           <p className="text-lg text-blue-100">
-            Comprehensive home inspection services for every property need
+            Comprehensive project management and construction consultancy solutions
           </p>
         </div>
       </section>

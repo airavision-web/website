@@ -4,9 +4,9 @@ export default function About() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-slate-900 to-blue-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Home Inspection Team</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Us</h1>
           <p className="text-lg text-blue-100">
-            Your trusted partner in comprehensive home inspections since 2020
+            Professional Project Management Consultancy delivering excellence across the entire project lifecycle
           </p>
         </div>
       </section>
@@ -18,13 +18,13 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Who We Are</h2>
               <p className="text-gray-600 mb-4 text-lg">
-                HIT Inspections is a leading provider of professional home inspection services. With a team of certified and experienced inspectors, we are committed to providing thorough, accurate, and unbiased assessments of residential properties.
+                We are a professional construction consulting and project management firm dedicated to delivering quality, transparency, and excellence throughout the project lifecycle.
               </p>
               <p className="text-gray-600 mb-4 text-lg">
-                Our mission is to empower homebuyers and property owners with the detailed information they need to make informed decisions about their most valuable investment.
+                We provide comprehensive Project Management Consultancy (PMC), Quality Assurance, Handover Inspection, and Interior Solutions for residential, commercial, institutional, and industrial projects.
               </p>
               <p className="text-gray-600 text-lg">
-                We pride ourselves on our attention to detail, professional conduct, and commitment to customer satisfaction.
+                Our objective is to safeguard our clients' investments by ensuring that projects are executed according to the desired quality standards, within budget, and on schedule. Through systematic planning, progress monitoring, quality control, and technical expertise, we help clients make informed decisions and achieve successful project outcomes.
               </p>
             </div>
             <div className="bg-gray-100 rounded-lg h-96 flex items-center justify-center">
@@ -39,10 +39,10 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             {[
-              { number: "500+", label: "Properties Inspected" },
-              { number: "50+", label: "Certified Inspectors" },
-              { number: "98%", label: "Client Satisfaction" },
-              { number: "24hr", label: "Average Report Time" },
+              { number: "100+", label: "Projects Delivered" },
+              { number: "50+", label: "Industry Professionals" },
+              { number: "99%", label: "Client Satisfaction" },
+              { number: "15+", label: "Years Experience" },
             ].map((stat, index) => (
               <div key={index}>
                 <p className="text-4xl font-bold text-orange-600 mb-2">{stat.number}</p>

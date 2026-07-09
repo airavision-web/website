@@ -8,13 +8,13 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Professional Home Inspection Services
+              Project Management Consultancy
             </h1>
             <p className="text-2xl md:text-3xl font-bold text-orange-500 mb-4">
-              Inspect Before You Invest
+              Quality Assurance | Handover Inspection | Interior Solutions
             </p>
             <p className="text-lg mb-8 text-blue-100">
-              Get a comprehensive inspection of your property by certified professionals. We ensure your safety and investment protection.
+              Managing Quality. Monitoring Progress. Protecting Your Investment. We provide comprehensive project management, quality assurance, and consultancy services throughout the entire project lifecycle.
             </p>
             <div className="flex space-x-4">
               <Link
@@ -40,7 +40,7 @@ export default function Hero() {
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <span className="text-lg font-semibold">Certified Inspectors</span>
+                <span className="text-lg font-semibold">Experienced Team</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="bg-orange-600 p-3 rounded-lg">
@@ -48,7 +48,7 @@ export default function Hero() {
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <span className="text-lg font-semibold">Detailed Reports</span>
+                <span className="text-lg font-semibold">End-to-End Solutions</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="bg-orange-600 p-3 rounded-lg">
@@ -56,7 +56,7 @@ export default function Hero() {
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <span className="text-lg font-semibold">Quick Turnaround</span>
+                <span className="text-lg font-semibold">Quality Assured</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="bg-orange-600 p-3 rounded-lg">
@@ -64,7 +64,7 @@ export default function Hero() {
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <span className="text-lg font-semibold">Affordable Pricing</span>
+                <span className="text-lg font-semibold">Transparent & Accountable</span>
               </div>
             </div>
           </div>

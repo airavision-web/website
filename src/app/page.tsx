@@ -11,10 +11,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose HIT Inspections?
+              Why Choose Us
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We provide comprehensive home inspection services with certified professionals and detailed reports
+              Delivering Confidence Through Expertise and Excellence
             </p>
           </div>
 
@@ -22,23 +22,23 @@ export default function Home() {
             {[
               {
                 icon: CheckCircle,
-                title: "Certified Professionals",
-                description: "All inspectors are certified and highly trained in their field",
+                title: "Experienced Professionals",
+                description: "Multidisciplinary team of project managers, engineers, and specialists with extensive industry experience",
               },
               {
                 icon: Zap,
-                title: "Modern Equipment",
-                description: "We use the latest technology for accurate inspections",
+                title: "Technology-Driven Approach",
+                description: "Leveraging BIM, Primavera P6, Microsoft Project, and digital reporting systems for enhanced project visibility",
               },
               {
                 icon: Award,
-                title: "Quality Assured",
-                description: "Guaranteed quality reports and detailed findings",
+                title: "Commitment to Quality",
+                description: "Rigorous quality management processes and adherence to recognized industry standards",
               },
               {
                 icon: Clock,
-                title: "Quick Turnaround",
-                description: "Fast and efficient service without compromising quality",
+                title: "Timely Delivery",
+                description: "Structured methodologies and proactive monitoring ensure projects are delivered on schedule",
               },
             ].map((feature, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition">
@@ -56,38 +56,38 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Service Portfolio
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Comprehensive inspection services covering all aspects of your property
+              Comprehensive Solutions Across the Project Lifecycle
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Structural Inspection",
-                description: "Complete structural assessment of foundation, walls, and roof",
+                title: "Project Management Consultancy",
+                description: "Strategic leadership and end-to-end management to ensure projects are delivered safely, on time, within budget",
               },
               {
-                title: "Electrical Systems",
-                description: "Thorough inspection of electrical wiring and safety",
+                title: "Quality Assurance & Control",
+                description: "Comprehensive QA/QC systems, inspections, compliance monitoring, and quality audits",
               },
               {
-                title: "Plumbing Systems",
-                description: "Complete plumbing assessment and leak detection",
+                title: "Construction Management",
+                description: "Seamless coordination of site activities, contractors, resources, and schedules",
               },
               {
-                title: "HVAC Systems",
-                description: "Heating and cooling system evaluation",
+                title: "Planning & Scheduling",
+                description: "Detailed project schedules using industry-leading tools and critical path analysis",
               },
               {
-                title: "Roof Inspection",
-                description: "Comprehensive roof condition and safety assessment",
+                title: "Handover Inspection",
+                description: "Comprehensive snagging, defect rectification, and final quality verification",
               },
               {
-                title: "Water Damage",
-                description: "Detection and assessment of moisture and water damage",
+                title: "Risk Management",
+                description: "Proactive identification, assessment, and mitigation of project risks",
               },
             ].map((service, index) => (
               <div key={index} className="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition">
@@ -146,10 +146,10 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-r from-slate-900 to-blue-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready for a Professional Home Inspection?
+            Ready to Partner with Us?
           </h2>
           <p className="text-lg mb-8 text-blue-100">
-            Schedule your inspection today and get peace of mind about your property
+            Let's discuss how our project management expertise can deliver value for your next project
           </p>
           <a
             href="/contact"
