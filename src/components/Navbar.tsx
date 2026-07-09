@@ -18,7 +18,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center space-x-2">
               <Image 
                 src="/logo.svg" 
-                alt=\"PMC Solutions Logo\" 
+                alt="PMC Solutions Logo" 
                 width={60} 
                 height={60}
                 className="h-16 w-auto"

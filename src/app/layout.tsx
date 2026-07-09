@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: \"PMC Solutions - Professional Project Management Consultancy\",
-  description: \"Project Management Consultancy, Quality Assurance, Handover Inspection, and Interior Solutions for residential, commercial, and industrial projects.\",
+  title: "PMC Solutions - Professional Project Management Consultancy",
+  description: "Project Management Consultancy, Quality Assurance, Handover Inspection, and Interior Solutions for residential, commercial, and industrial projects.",
 };
 
 export default function RootLayout({

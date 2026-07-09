@@ -8,7 +8,7 @@ export default function Pricing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Pricing</h1>
           <p className="text-lg text-blue-100">
-            Transparent and competitive pricing for all inspection services
+            Transparent and competitive pricing for all consultancy services
           </p>
         </div>
       </section>
@@ -18,41 +18,41 @@ export default function Pricing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              {
-                name: "Basic Inspection",
-                price: "$299",
-                description: "Perfect for smaller properties",
+            {
+                name: "Basic Consultancy",
+                price: "₹25,000",
+                description: "Perfect for smaller projects",
                 features: [
-                  "Home inspection up to 1000 sqft",
+                  "Project planning and scheduling",
                   "Detailed written report",
-                  "Photos and recommendations",
-                  "24-hour report delivery",
+                  "Site supervision",
+                  "Weekly progress updates",
                 ],
               },
               {
-                name: "Standard Inspection",
-                price: "$399",
+                name: "Standard Consultancy",
+                price: "₹50,000",
                 description: "Most popular option",
                 features: [
-                  "Home inspection up to 2000 sqft",
-                  "Comprehensive report with photos",
-                  "Video walkthrough",
-                  "Same-day report delivery",
-                  "Free follow-up consultation",
+                  "End-to-end project management",
+                  "Quality assurance systems",
+                  "Comprehensive reports with photos",
+                  "Bi-weekly site inspections",
+                  "Free consultation support",
                 ],
                 featured: true,
               },
               {
-                name: "Premium Inspection",
-                price: "$599",
+                name: "Premium Consultancy",
+                price: "₹1,00,000",
                 description: "Complete coverage",
                 features: [
-                  "Home inspection up to 4000 sqft",
-                  "Advanced thermal imaging",
-                  "Detailed video report",
-                  "Same-day report delivery",
+                  "Full project lifecycle management",
+                  "Advanced quality control",
+                  "Detailed video documentation",
+                  "Weekly site inspections",
                   "Extended consultation",
-                  "Moisture meter testing",
+                  "Risk assessment & mitigation",
                 ],
               },
             ].map((plan, index) => (
@@ -119,11 +119,11 @@ export default function Pricing() {
             <div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Additional Services</h3>
               <ul className="space-y-3 text-gray-600">
-                <li>Thermal Imaging: +$150</li>
-                <li>Mold Assessment: +$200</li>
-                <li>Pest Inspection: +$150</li>
-                <li>Well & Septic: +$250</li>
-                <li>Foundation Report: +$100</li>
+                <li>Handover Inspection: +₹15,000</li>
+                <li>Quality Audits: +₹20,000</li>
+                <li>Risk Management: +₹25,000</li>
+                <li>Interior Solutions: +₹30,000</li>
+                <li>Design Coordination: +₹10,000</li>
               </ul>
             </div>
           </div>

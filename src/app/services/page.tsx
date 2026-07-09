@@ -94,16 +94,6 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                title: "Roof Inspection",
-                description:
-                  "Professional roof assessment including shingles, flashing, gutters, and overall condition.",
-              },
-              {
-                title: "HVAC Systems",
-                description:
-                  "Complete heating and cooling system evaluation and functionality assessment.",
-              },
-              {
                 title: "Water Damage Detection",
                 description:
                   "Advanced moisture detection and water damage assessment using thermal imaging.",
@@ -116,12 +106,22 @@ export default function Services() {
               {
                 title: "Thermal Imaging",
                 description:
-                  "Infrared technology to detect hidden issues like insulation gaps and leaks.",
+                  "Infrared technology to detect hidden issues like insulation gaps and moisture problems.",
               },
               {
-                title: "Mold Assessment",
+                title: "Foundation Assessment",
                 description:
-                  "Professional evaluation of potential mold and moisture problems.",
+                  "Professional evaluation of foundation integrity and structural health.",
+              },
+              {
+                title: "Interior Solutions",
+                description:
+                  "Complete interior planning and design consultancy for optimal space utilization.",
+              },
+              {
+                title: "Safety Compliance",
+                description:
+                  "Verification of safety standards and compliance with building regulations.",
               },
             ].map((service, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
