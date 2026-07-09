@@ -17,7 +17,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <Image 
-                src="/logo.jpeg" 
+                src="/logo.svg" 
                 alt="HIT Logo" 
                 width={60} 
                 height={60}
