@@ -20,7 +20,7 @@ export default function Pricing() {
             {[
             {
                 name: "Basic Consultancy",
-                price: "₹25,000",
+                price: "₹10,000",
                 description: "Perfect for smaller projects",
                 features: [
                   "Project planning and scheduling",
@@ -31,7 +31,7 @@ export default function Pricing() {
               },
               {
                 name: "Standard Consultancy",
-                price: "₹50,000",
+                price: "₹25,000",
                 description: "Most popular option",
                 features: [
                   "End-to-end project management",
@@ -44,7 +44,7 @@ export default function Pricing() {
               },
               {
                 name: "Premium Consultancy",
-                price: "₹1,00,000",
+                price: "₹50,000",
                 description: "Complete coverage",
                 features: [
                   "Full project lifecycle management",

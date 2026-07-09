@@ -7,6 +7,7 @@ interface FormData {
   name: string;
   email: string;
   phone: string;
+  property: string;
   subject: string;
   message: string;
 }
@@ -16,6 +17,7 @@ export default function Contact() {
     name: '',
     email: '',
     phone: '',
+    property: '',
     subject: '',
     message: '',
   });
@@ -51,7 +53,7 @@ export default function Contact() {
       }
 
       setSuccess(true);
-      setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
+      setFormData({ name: '', email: '', phone: '', property: '', subject: '', message: '' });
       setTimeout(() => setSuccess(false), 5000);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred');
