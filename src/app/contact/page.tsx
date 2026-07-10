@@ -207,8 +207,17 @@ export default function Contact() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Our Location</h2>
-          <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-            <p className="text-gray-500">Google Map Placeholder</p>
+          <div className="w-full h-96 bg-gray-200">
+            <iframe
+              title="Aira Vision Location"
+              src="https://maps.google.com/maps?q=Vaibhava%20lakshmi%20Nilayam-2,%20plot%23%20608,%20Aparna%20Hillpark%20Rd,%20PJR%20Layout,%20Chanda%20Nagar,%20Hyderabad,%20Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen={false}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </section>
