@@ -12,8 +12,8 @@ export default function Home() {
         >
           <div className="absolute inset-0 bg-primary/70 mix-blend-multiply"></div>
         </div>
-        <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full text-center md:text-left">
-          <div className="max-w-3xl border-l-4 border-construction-orange pl-6 md:pl-8 py-2 bg-surface/10 backdrop-blur-sm rounded-r-xl border-y border-r border-surface/20">
+        <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full text-center md:text-left mt-16 md:mt-0">
+          <div className="max-w-3xl border-l-4 border-construction-orange pl-4 md:pl-8 py-2">
             {/* ponytail: explicit h1, with lighter font weights */}
             <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight mb-6 leading-tight drop-shadow-lg">
               Project Management <br className="hidden md:block" />
