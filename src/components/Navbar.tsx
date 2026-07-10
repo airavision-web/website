@@ -1,96 +1,61 @@
-'use client';
-
-import Link from 'next/link';
-import Image from 'next/image';
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import Link from "next/link";
+import { Menu, ChevronDown } from "lucide-react";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => setIsOpen(!isOpen);
-
   return (
-    <nav className="fixed w-full bg-white shadow-lg z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-20 items-center">
-          <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <Image 
-                src="/logo.svg" 
-                alt="PMC Solutions Logo" 
-                width={60} 
-                height={60}
-                className="h-16 w-auto"
-              />
-            </Link>
-          </div>
+    <nav className="w-full top-0 sticky bg-surface border-b border-steel-gray/20 z-50">
+      <div className="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-4">
+          <Link href="/" className="flex items-center gap-4 group">
+            {/* ponytail: solid industrial logo style */}
+            <img
+              alt="Aira Vision Logo"
+              className="h-10 w-10 object-contain drop-shadow-sm"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAShwERnZMF_CNPRCwErUWPNyYwzflEOACZtnKFpaycwmEhKgd6pTfu6akgpzNHi2nVe1nzoSRQcKTwGoQ2Kj6kQgPKeUcgf6vXqVW72JdYQYqc1f0VpGUhQf2VjdM7O740IIKC0wYw49Dn4sCORIEUbzle8lvrf-1BpZTzUDoloWqt46T9csgt7a799BmneP-lWyVeWZWXPgPf1Wp0jo0-y2O7mUWbZyFVVJHu5Z5CmmZ36QzsKZcKp337sYe90iE4jQ"
+            />
+            <span className="font-headline-md text-2xl font-black text-slate-900 uppercase tracking-tighter">
+              Aira Vision
+            </span>
+          </Link>
+        <div className="hidden md:flex items-center gap-6">
 
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-orange-600 transition font-medium">
-              Home
-            </Link>
-            <Link href="/about" className="text-gray-700 hover:text-orange-600 transition font-medium">
-              About
-            </Link>
-            <Link href="/services" className="text-gray-700 hover:text-orange-600 transition font-medium">
-              Services
-            </Link>
-            <Link href="/gallery" className="text-gray-700 hover:text-orange-600 transition font-medium">
-              Gallery
-            </Link>
-            <Link href="/pricing" className="text-gray-700 hover:text-orange-600 transition font-medium">
-              Pricing
-            </Link>
-            <Link href="/blog" className="text-gray-700 hover:text-orange-600 transition font-medium">
-              Blog
-            </Link>
-            <Link
-              href="/contact"
-              className="bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 transition font-semibold"
-            >
-              Contact
-            </Link>
-          </div>
-
-          {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
-            <button onClick={toggleMenu} className="text-gray-700">
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
+          <Link href="/about" className="text-on-surface-variant py-1 text-body-md transition-colors duration-200 ease-in-out hover:text-secondary">
+            About
+          </Link>
+          
+          {/* Services Dropdown */}
+          <div className="relative group py-1">
+            <button className="text-on-surface-variant text-body-md transition-colors duration-200 flex items-center gap-1 group-hover:text-secondary">
+              Services <ChevronDown className="w-4 h-4" />
             </button>
+            <div className="absolute top-full left-0 mt-2 w-72 bg-surface-container-lowest border border-steel-gray/20 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <Link href="/services/project-management" className="block px-4 py-3 text-body-md text-on-surface hover:bg-surface-container-low hover:text-blueprint-blue transition-colors">
+                Project Management Consultancy
+              </Link>
+              <Link href="/services/home-inspection" className="block px-4 py-3 text-body-md text-on-surface hover:bg-surface-container-low hover:text-blueprint-blue transition-colors border-t border-steel-gray/10">
+                Home Inspection
+              </Link>
+            </div>
           </div>
-        </div>
 
-        {/* Mobile Menu */}
-        {isOpen && (
-          <div className="md:hidden pb-4">
-            <Link href="/" className="block py-2 text-gray-700 hover:text-orange-600 font-medium">
-              Home
-            </Link>
-            <Link href="/about" className="block py-2 text-gray-700 hover:text-orange-600 font-medium">
-              About
-            </Link>
-            <Link href="/services" className="block py-2 text-gray-700 hover:text-orange-600 font-medium">
-              Services
-            </Link>
-            <Link href="/gallery" className="block py-2 text-gray-700 hover:text-orange-600 font-medium">
-              Gallery
-            </Link>
-            <Link href="/pricing" className="block py-2 text-gray-700 hover:text-orange-600 font-medium">
-              Pricing
-            </Link>
-            <Link href="/blog" className="block py-2 text-gray-700 hover:text-orange-600 font-medium">
-              Blog
-            </Link>
-            <Link
-              href="/contact"
-              className="block py-2 bg-orange-600 text-white px-4 rounded mt-2 font-semibold"
-            >
-              Contact
-            </Link>
-          </div>
-        )}
+          <Link href="/projects" className="text-on-surface-variant py-1 text-body-md transition-colors duration-200 ease-in-out hover:text-secondary">
+            Projects
+          </Link>
+          <Link href="/gallery" className="text-on-surface-variant py-1 text-body-md transition-colors duration-200 ease-in-out hover:text-secondary">
+            Gallery
+          </Link>
+          <Link href="/blog" className="text-on-surface-variant py-1 text-body-md transition-colors duration-200 ease-in-out hover:text-secondary">
+            Blog
+          </Link>
+        </div>
+        {/* ponytail: industrial heavy button */}
+        <div className="hidden md:block">
+          <Link href="/contact" className="bg-construction-orange text-white px-6 py-3 rounded-none font-bold uppercase tracking-wider hover:bg-orange-700 transition-colors">
+            Contact Us
+          </Link>
+        </div>
+        <button className="md:hidden text-on-surface-variant">
+          <Menu className="w-8 h-8" />
+        </button>
       </div>
     </nav>
   );

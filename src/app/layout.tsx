@@ -4,9 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-// Enable dynamic rendering for all pages
-export const dynamic = 'force-dynamic';
-
+// Removed force-dynamic for static export
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -18,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PMC Solutions - Professional Project Management Consultancy",
+  title: "Ayra Vision - Professional Project Management Consultancy & Home Inspections",
   description: "Project Management Consultancy, Quality Assurance, Handover Inspection, and Interior Solutions for residential, commercial, and industrial projects.",
 };
 

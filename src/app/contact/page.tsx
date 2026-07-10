@@ -63,12 +63,13 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-white pt-16">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-slate-900 to-blue-900 text-white py-20">
+      {/* ponytail: solid industrial colors, heavy borders, bold caps */}
+      <section className="bg-slate-900 text-white py-24 border-b-8 border-construction-orange">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
-          <p className="text-lg text-blue-100">
+          <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6">Contact Us</h1>
+          <p className="text-xl text-gray-300 font-medium">
             Get in touch with our team to schedule your inspection
           </p>
         </div>
@@ -88,7 +89,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
                     <p className="text-gray-600">+91 9550234556</p>
-                    <p className="text-gray-600">+91 7013751714</p>
+                    <p className="text-gray-600">+91 7671010806</p>
                   </div>
                 </div>
 
@@ -96,7 +97,7 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-orange-600 mt-1" />
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">homeinspectionteam.hyd@gmail.com</p>
+                    <p className="text-gray-600">airavision.av@gmail.com</p>
                   </div>
                 </div>
 
@@ -104,7 +105,7 @@ export default function Contact() {
                   <MapPin className="w-6 h-6 text-orange-600 mt-1" />
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Address</h3>
-                    <p className="text-gray-600">30-46/91, Yadaiaynagar colony, Street no 3, Gandamguda, Bandlagudajagir, Pin: 500086</p>
+                    <p className="text-gray-600">2nd floor, Vaibhava lakshmi Nilayam-2, plot# 608, Aparna Hillpark Rd, PJR Layout, Chanda Nagar, Hyderabad, Telangana 500050</p>
                   </div>
                 </div>
 
