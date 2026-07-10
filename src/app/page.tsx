@@ -23,10 +23,10 @@ export default function Home() {
               Authoritative oversight, rigorous execution, and meticulous inspections to protect your investment from day one.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Link href="/services/project-management" className="bg-construction-orange text-white px-8 py-4 rounded-none font-black text-lg uppercase tracking-widest hover:bg-orange-700 transition-colors border-4 border-construction-orange">
+              <Link href="/services/project-management" className="bg-construction-orange text-white px-8 py-4 rounded-none font-black text-lg uppercase tracking-widest hover:bg-orange-700 transition-colors border-4 border-construction-orange text-center w-full sm:w-auto">
                 PMC Services
               </Link>
-              <Link href="/services/home-inspection" className="bg-transparent border-4 border-white text-white px-8 py-4 rounded-none font-black text-lg uppercase tracking-widest hover:bg-white hover:text-slate-900 transition-colors">
+              <Link href="/services/home-inspection" className="bg-transparent border-4 border-white text-white px-8 py-4 rounded-none font-black text-lg uppercase tracking-widest hover:bg-white hover:text-slate-900 transition-colors text-center w-full sm:w-auto">
                 Home Inspections
               </Link>
             </div>
