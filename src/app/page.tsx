@@ -6,8 +6,8 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <header className="relative w-full min-h-[80vh] flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 z-0 bg-cover bg-center" 
+        <div
+          className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDYml1KztOnMb_S4a-GYn43gqNA0cnt2RB_nd1IFPoMo3ObjSno2zc-aLtS9bosqhmp_Ak7poB1RxyzcXMXeweQXR4c4Kx41GqwWuSa2WX7xno-D5zCPHJSnMfPW8x5EHYindd9dmHnxbKSmq8golRKg2n_unrfptHE2Poh1ixbHUORFmTAuIFcEtrzcbO9fbAVzcValJiz4vD3mUeV7VALcUiMRvi56mP6UTy4QOyLOb5bQVzDOOHZ')" }}
         >
           <div className="absolute inset-0 bg-primary/70 mix-blend-multiply"></div>
@@ -98,7 +98,7 @@ export default function Home() {
                     <ClipboardCheck className="w-6 h-6 text-steel-gray" />
                   </div>
                 </div>
-                <h3 className="font-headline-md text-[20px] leading-7 font-bold text-primary mb-2">Home & Handover Inspections</h3>
+                <h3 className="font-headline-md text-[20px] leading-7 font-bold text-primary mb-2">Home Handover Inspections</h3>
                 <p className="font-body-md text-[14px] leading-5 text-on-surface-variant line-clamp-3">Meticulous final phase snagging, defect resolution management, and residential property assessments guaranteeing seamless project delivery to stakeholders.</p>
               </div>
             </div>
