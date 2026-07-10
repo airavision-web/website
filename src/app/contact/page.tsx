@@ -210,7 +210,7 @@ export default function Contact() {
           <div className="w-full h-96 bg-gray-200">
             <iframe
               title="Aira Vision Location"
-              src="https://maps.google.com/maps?q=plot%23%20608,%20Aparna%20Hillpark%20Rd,%20PJR%20Layout,%20Chanda%20Nagar,%20Hyderabad,%20Telangana&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=Vaibhava%20Lakshmi%20Nilayam%20-2,%20plot%23%20608,%20Aparna%20Hillpark%20Rd,%20PJR%20Layout,%20Chanda%20Nagar,%20Hyderabad,%20Telangana&t=&z=16&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
