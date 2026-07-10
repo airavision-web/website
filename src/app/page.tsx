@@ -8,7 +8,7 @@ export default function Home() {
       <header className="relative w-full min-h-[80vh] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1541888081622-4a09ce7d78fa?auto=format&fit=crop&q=80&w=2070')" }}
+          style={{ backgroundImage: "url('/hero-bg.png')" }}
         >
           <div className="absolute inset-0 bg-primary/70 mix-blend-multiply"></div>
         </div>
