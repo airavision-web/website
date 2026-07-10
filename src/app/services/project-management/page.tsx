@@ -32,7 +32,7 @@ export default function ProjectManagementPage() {
 
           {/* 1. Pre-Construction */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
-            <div className="lg:col-span-4 sticky top-32">
+            <div className="lg:col-span-4 lg:sticky lg:top-32">
               <div className="flex items-center gap-4 mb-stack-sm">
                 <div className="w-12 h-12 bg-primary text-on-primary flex items-center justify-center rounded-sm font-headline-md font-bold">
                   01
@@ -78,7 +78,7 @@ export default function ProjectManagementPage() {
 
           {/* 2. Construction Phase */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
-            <div className="lg:col-span-4 sticky top-32">
+            <div className="lg:col-span-4 lg:sticky lg:top-32">
               <div className="flex items-center gap-4 mb-stack-sm">
                 <div className="w-12 h-12 bg-construction-orange text-white flex items-center justify-center rounded-sm font-headline-md font-bold">
                   02
@@ -138,7 +138,7 @@ export default function ProjectManagementPage() {
 
           {/* 3. Post-Construction */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
-            <div className="lg:col-span-4 sticky top-32">
+            <div className="lg:col-span-4 lg:sticky lg:top-32">
               <div className="flex items-center gap-4 mb-stack-sm">
                 <div className="w-12 h-12 bg-secondary text-white flex items-center justify-center rounded-sm font-headline-md font-bold">
                   03
