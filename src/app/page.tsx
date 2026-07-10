@@ -8,11 +8,11 @@ export default function Home() {
       <header className="relative w-full min-h-[80vh] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDYml1KztOnMb_S4a-GYn43gqNA0cnt2RB_nd1IFPoMo3ObjSno2zc-aLtS9bosqhmp_Ak7poB1RxyzcXMXeweQXR4c4Kx41GqwWuSa2WX7xno-D5zCPHJSnMfPW8x5EHYindd9dmHnxbKSmq8golRKg2n_unrfptHE2Poh1ixbHUORFmTAuIFcEtrzcbO9fbAVzcValJiz4vD3mUeV7VALcUiMRvi56mP6UTy4QOyLOb5bQVzDOOHZ')" }}
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1541888081622-4a09ce7d78fa?auto=format&fit=crop&q=80&w=2070')" }}
         >
           <div className="absolute inset-0 bg-primary/70 mix-blend-multiply"></div>
         </div>
-        <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full text-center md:text-left mt-16 md:mt-0">
+        <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full text-left mt-16 md:mt-0">
           <div className="max-w-3xl border-l-4 border-construction-orange pl-4 md:pl-8 py-2">
             {/* ponytail: explicit h1, with lighter font weights */}
             <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight mb-6 leading-tight drop-shadow-lg">
@@ -22,11 +22,11 @@ export default function Home() {
             <p className="text-lg md:text-xl font-normal text-white mb-8 max-w-3xl drop-shadow-md">
               Authoritative oversight, rigorous execution, and meticulous inspections to protect your investment from day one.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Link href="/services/project-management" className="bg-construction-orange text-white px-8 py-4 rounded-none font-black text-lg uppercase tracking-widest hover:bg-orange-700 transition-colors border-4 border-construction-orange text-center w-full sm:w-auto">
+            <div className="flex flex-col sm:flex-row gap-4 justify-start">
+              <Link href="/services/project-management" className="bg-construction-orange text-white px-6 sm:px-8 py-3 sm:py-4 rounded-none font-black text-base sm:text-lg uppercase tracking-wider sm:tracking-widest hover:bg-orange-700 transition-colors border-4 border-construction-orange text-center w-full sm:w-auto">
                 PMC Services
               </Link>
-              <Link href="/services/home-inspection" className="bg-transparent border-4 border-white text-white px-8 py-4 rounded-none font-black text-lg uppercase tracking-widest hover:bg-white hover:text-slate-900 transition-colors text-center w-full sm:w-auto">
+              <Link href="/services/home-inspection" className="bg-transparent border-4 border-white text-white px-6 sm:px-8 py-3 sm:py-4 rounded-none font-black text-base sm:text-lg uppercase tracking-wider sm:tracking-widest hover:bg-white hover:text-slate-900 transition-colors text-center w-full sm:w-auto whitespace-normal">
                 Home Inspections
               </Link>
             </div>
@@ -59,7 +59,7 @@ export default function Home() {
             <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-2">Services Snapshot</h2>
             <div className="h-px w-full bg-steel-gray/20"></div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter auto-rows-[250px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter auto-rows-auto lg:auto-rows-[250px]">
             {/* Service 1: Project Management (Large) */}
             <div className="bg-surface-container-lowest border-t-4 border-blueprint-blue border border-surface-container-highest rounded-DEFAULT p-6 flex flex-col justify-between hover:shadow-[0px_4px_20px_rgba(0,43,91,0.08)] transition-all duration-300 hover:-translate-y-1 lg:col-span-2 lg:row-span-2 group relative overflow-hidden">
 

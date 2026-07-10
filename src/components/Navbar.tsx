@@ -67,8 +67,8 @@ export default function Navbar() {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-white border-t border-steel-gray/20 absolute w-full left-0 top-full shadow-lg">
-          <div className="flex flex-col px-6 py-4 space-y-4">
+        <div className="md:hidden bg-white border-t border-steel-gray/20 absolute w-full left-0 top-full shadow-lg h-[calc(100vh-73px)] overflow-y-auto">
+          <div className="flex flex-col px-6 py-4 space-y-4 pb-8">
             <Link href="/about" className="text-slate-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>About</Link>
             <Link href="/services/project-management" className="text-slate-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Project Management</Link>
             <Link href="/services/home-inspection" className="text-slate-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Home Inspection</Link>
