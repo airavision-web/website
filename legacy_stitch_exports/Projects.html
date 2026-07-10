@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sectors &amp; Portfolio - Aira Construction Services</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "outline-variant": "#c4c6d0",
+                      "background": "#f9f9fc",
+                      "on-secondary-fixed-variant": "#6d3a00",
+                      "on-background": "#1a1c1e",
+                      "tertiary-fixed-dim": "#c3c7ca",
+                      "on-tertiary-container": "#8f9396",
+                      "error-container": "#ffdad6",
+                      "surface-container-highest": "#e2e2e5",
+                      "surface-bright": "#f9f9fc",
+                      "surface-container-high": "#e8e8ea",
+                      "construction-orange": "#D97706",
+                      "inverse-on-surface": "#f0f0f3",
+                      "on-secondary": "#ffffff",
+                      "blueprint-blue": "#003366",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary-fixed": "#ffdcc2",
+                      "surface": "#f9f9fc",
+                      "primary-container": "#002b5b",
+                      "inverse-primary": "#a9c7ff",
+                      "surface-container-low": "#f3f3f6",
+                      "on-error": "#ffffff",
+                      "primary-fixed": "#d6e3ff",
+                      "tertiary": "#14181a",
+                      "on-surface": "#1a1c1e",
+                      "secondary": "#8c4f10",
+                      "on-primary-fixed-variant": "#264778",
+                      "on-surface-variant": "#43474f",
+                      "steel-gray": "#64748B",
+                      "surface-variant": "#e2e2e5",
+                      "on-primary": "#ffffff",
+                      "surface-dim": "#dadadc",
+                      "inverse-surface": "#2f3133",
+                      "on-tertiary-fixed-variant": "#43474a",
+                      "outline": "#747780",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-container": "#7594ca",
+                      "primary-fixed-dim": "#a9c7ff",
+                      "on-tertiary-fixed": "#181c1e",
+                      "on-primary-fixed": "#001b3d",
+                      "secondary-fixed-dim": "#ffb77b",
+                      "on-secondary-container": "#763f00",
+                      "tertiary-fixed": "#e0e3e6",
+                      "surface-container": "#eeeef0",
+                      "surface-tint": "#405f91",
+                      "primary": "#001736",
+                      "on-error-container": "#93000a",
+                      "on-secondary-fixed": "#2e1500",
+                      "safety-yellow": "#FBBF24",
+                      "error": "#ba1a1a",
+                      "tertiary-container": "#282c2e",
+                      "secondary-container": "#fdad67"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "stack-sm": "12px",
+                      "margin-mobile": "16px",
+                      "gutter": "24px",
+                      "stack-md": "24px",
+                      "margin-desktop": "40px",
+                      "base": "8px",
+                      "container-max": "1280px",
+                      "stack-lg": "48px"
+              },
+              "fontFamily": {
+                      "headline-md": ["Manrope"],
+                      "body-md": ["Inter"],
+                      "body-lg": ["Inter"],
+                      "headline-lg-mobile": ["Manrope"],
+                      "label-sm": ["JetBrains Mono"],
+                      "display-lg": ["Manrope"],
+                      "headline-lg": ["Manrope"]
+              },
+              "fontSize": {
+                      "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
+                      "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                      "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                      "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "700"}]
+              }
+      },
+          },
+        }
+      </script>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-md text-body-md antialiased selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar (From JSON) -->
+<header class="w-full top-0 sticky bg-surface border-b border-steel-gray/20 z-50">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-4">
+<div class="font-headline-md text-headline-md font-bold text-blueprint-blue">
+                Aira Precision
+            </div>
+<nav class="hidden md:flex gap-gutter items-center font-body-md text-body-md">
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200 ease-in-out" href="#">Home</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200 ease-in-out" href="#">About Us</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200 ease-in-out" href="#">Services</a>
+<!-- Active State Applied Here based on 'Portfolio / Sectors page' intent -->
+<a class="text-secondary font-bold border-b-2 border-secondary pb-1 hover:text-secondary transition-colors duration-200 ease-in-out" href="#">Portfolio</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200 ease-in-out" href="#">Why Choose Us</a>
+</nav>
+<div class="hidden md:block">
+<button class="bg-primary hover:bg-primary-container text-on-primary font-label-sm text-label-sm px-6 py-2.5 rounded transition-colors duration-200 ease-in-out uppercase tracking-wider">
+                    Contact Us
+                </button>
+</div>
+<!-- Mobile Menu Button (Placeholder) -->
+<button class="md:hidden text-primary p-2">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative bg-surface-container-highest py-stack-lg border-b border-outline-variant/30 overflow-hidden">
+<!-- Background Texture -->
+<div class="absolute inset-0 opacity-5" style="background-image: repeating-linear-gradient(45deg, #001736 0, #001736 1px, transparent 1px, transparent 10px);"></div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
+<div class="max-w-3xl">
+<p class="font-label-sm text-label-sm text-construction-orange uppercase tracking-widest mb-stack-sm flex items-center gap-2">
+<span class="w-8 h-px bg-construction-orange"></span>
+                        Our Expertise
+                    </p>
+<h1 class="font-display-lg text-display-lg text-primary mb-stack-md">Sectors &amp; Portfolio</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                        Delivering structural integrity and operational excellence across diverse built environments. Our portfolio reflects a commitment to precision, scalable infrastructure, and enduring architectural quality.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Sectors Bento Grid -->
+<section class="py-stack-lg bg-background">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="mb-stack-md border-b border-steel-gray/20 pb-4 flex justify-between items-end">
+<h2 class="font-headline-lg text-headline-lg text-primary">Industries Served</h2>
+<span class="font-label-sm text-label-sm text-outline hidden md:block">03 CORE SECTORS</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Commercial & Residential (Spans 8 cols on desktop) -->
+<div class="md:col-span-8 group relative bg-surface-container-lowest border border-surface-variant overflow-hidden flex flex-col min-h-[400px] hover:-translate-y-0.5 transition-transform duration-300">
+<div class="absolute top-0 left-0 w-full h-1 bg-blueprint-blue z-20"></div>
+<div class="relative h-64 overflow-hidden w-full">
+<div class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
+<img class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A modern commercial skyscraper reaching towards a clear blue sky, featuring a sleek glass facade reflecting the sunlight. The building is surrounded by a clean, geometric plaza with minimalist landscaping. The scene is shot from a low angle to emphasize height and architectural precision, capturing a bright, professional light-mode aesthetic with deep blue sky and crisp steel structures." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu3IpBZ7oBPYy8mi2axQ0pAU3EWs57IOwk-36i6HSUWefo_F4XL0guOplhVjlq0GBGhYEEJ4f51H-uzuexLn4z2jNczWUAqqzxZu2hOBqIHHNgS0PoOvUJa2oqQE4zhiPc8VXLO0c91mm6o3DaYCT4pouMOGVPd-1TmvLWbkKn7qrV0gBtRYRo2s3Iu82EwEMznFjl2l_TMH0hERHhNZJy7ZofEc1F5lsU6x3NGulg6z_UfFjuvMYK"/>
+<div class="absolute bottom-4 right-4 bg-surface/90 backdrop-blur px-3 py-1 font-label-sm text-label-sm text-primary z-20 border border-surface-variant">
+                                REF: COM-2024
+                            </div>
+</div>
+<div class="p-gutter flex-grow flex flex-col justify-between">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-stack-sm flex items-center gap-3">
+<span class="material-symbols-outlined text-blueprint-blue" data-icon="domain" data-weight="fill" style="font-variation-settings: 'FILL' 1;">domain</span>
+                                    Commercial &amp; Residential
+                                </h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-stack-md">
+                                    High-performance commercial centers and modern residential complexes engineered for functionality and tenant wellbeing. We focus on optimizing usable space, energy efficiency, and modern aesthetic standards.
+                                </p>
+</div>
+<div class="flex items-center text-construction-orange font-label-sm text-label-sm uppercase tracking-wider group-hover:text-secondary transition-colors">
+                                View Projects
+                                <span class="material-symbols-outlined ml-2 text-sm transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Healthcare & Institutional (Spans 4 cols on desktop) -->
+<div class="md:col-span-4 group relative bg-surface-container-lowest border border-surface-variant overflow-hidden flex flex-col min-h-[400px] hover:-translate-y-0.5 transition-transform duration-300">
+<div class="absolute top-0 left-0 w-full h-1 bg-construction-orange z-20"></div>
+<div class="relative h-48 overflow-hidden w-full">
+<div class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
+<img class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A contemporary healthcare facility exterior characterized by clean lines, ample natural light pouring through large windows, and a welcoming, sterile yet warm entrance. The architecture features modern white cladding and steel accents, set against a bright, airy background emphasizing health, hygiene, and advanced institutional design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAWYbEWZp5DbqsIdYK63ndSq4x3Z-bBd1DrRt08UfsnKB87iuYcEHDOlDAntNRNG8vutIBEHJc-OEVAFStPVSing0r2BAW0jtEUCjnKziExvmx13gGeH3oA05t9LCwpZXC70VxcBvzlCt3J7Kxm5OO3yqkyUintKlWUsh0HQF2bPdocLR45cBsS6RtCYfoX8tQ7XDST13ifGokngkk_VCjhhGf7jryKA0WTKyxqyll2jPsHMd2FXeK"/>
+</div>
+<div class="p-gutter flex-grow flex flex-col justify-between">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-stack-sm flex items-center gap-3">
+<span class="material-symbols-outlined text-construction-orange" data-icon="health_and_safety" data-weight="fill" style="font-variation-settings: 'FILL' 1;">health_and_safety</span>
+                                    Healthcare &amp; Institutional
+                                </h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-stack-md">
+                                    Specialized facilities requiring rigorous compliance, complex MEP integration, and environments designed for critical care and education.
+                                </p>
+</div>
+<div class="flex items-center text-blueprint-blue font-label-sm text-label-sm uppercase tracking-wider group-hover:text-primary transition-colors">
+                                View Projects
+                                <span class="material-symbols-outlined ml-2 text-sm transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Industrial & Infrastructure (Full width on desktop) -->
+<div class="md:col-span-12 group relative bg-primary-container text-on-primary-container overflow-hidden flex flex-col md:flex-row min-h-[300px] hover:-translate-y-0.5 transition-transform duration-300 border border-primary/20">
+<div class="absolute left-0 top-0 h-full w-1 bg-safety-yellow z-20 hidden md:block"></div>
+<div class="absolute top-0 left-0 w-full h-1 bg-safety-yellow z-20 md:hidden"></div>
+<div class="md:w-2/5 p-gutter md:p-margin-desktop flex flex-col justify-center bg-primary text-on-primary relative z-10">
+<h3 class="font-headline-md text-headline-md mb-stack-sm flex items-center gap-3">
+<span class="material-symbols-outlined text-safety-yellow" data-icon="precision_manufacturing" data-weight="fill" style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
+                                Industrial &amp; Infrastructure
+                            </h3>
+<p class="text-on-primary/80 font-body-md text-body-md mb-stack-md">
+                                Robust structural frameworks and heavy-duty infrastructure designed to withstand operational stress and support logistical efficiency at scale.
+                            </p>
+<div class="flex items-center text-safety-yellow font-label-sm text-label-sm uppercase tracking-wider group-hover:text-white transition-colors cursor-pointer w-max">
+                                Explore Capabilities
+                                <span class="material-symbols-outlined ml-2 text-sm transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<div class="md:w-3/5 relative h-64 md:h-auto overflow-hidden">
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-500 z-10 mix-blend-multiply"></div>
+<img class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A sprawling, modern industrial warehouse interior during the day. The scene features exposed steel beams, perfectly aligned concrete flooring, and high bay LED lighting. The perspective is highly linear, emphasizing scale, precision engineering, and robust infrastructure within a professional, clean industrial setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-2mkbCjdOHL4AANfnY_q7JZEJymn7nmV0EOtjfgxIPPmytgnzHm3m-TujbEpYDRnfhdVy9FmDx6OzVCKSkfJeDBekrGQP8HYj8qwgwtjrVeDj2yeX27p93a_472gQy8tI38RChair8uv_F8duHfjHfpQMWBgoXhm33Wj7yeyP_yxxB7cgi2z2UjvUnknMuEvYLXIBg_DCmoAQOhg0H_PAnC68pGRIrK1D7Cz2UvMbnqoD2k43H2fj"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (From JSON) -->
+<footer class="bg-primary w-full border-t border-steel-gray/30">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg">
+<div class="md:col-span-4 flex flex-col gap-stack-sm">
+<div class="font-headline-md text-headline-md font-bold text-on-primary">
+                    Aira Construction Services
+                </div>
+<p class="font-body-md text-body-md text-on-primary/80">
+                    © 2024 Aira Construction Services. All rights reserved.
+                </p>
+</div>
+<div class="md:col-span-8 flex justify-end items-end gap-gutter font-body-md text-body-md">
+<a class="text-on-primary/80 hover:text-on-primary underline transition-all" href="#">Privacy Policy</a>
+<a class="text-on-primary/80 hover:text-on-primary underline transition-all" href="#">Terms of Service</a>
+<a class="text-on-primary/80 hover:text-on-primary underline transition-all" href="#">Cookie Policy</a>
+</div>
+</div>
+</footer>
+</body></html>

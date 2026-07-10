@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Services - Aira Construction Services</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline-variant": "#c4c6d0",
+                        "background": "#f9f9fc",
+                        "on-secondary-fixed-variant": "#6d3a00",
+                        "on-background": "#1a1c1e",
+                        "tertiary-fixed-dim": "#c3c7ca",
+                        "on-tertiary-container": "#8f9396",
+                        "error-container": "#ffdad6",
+                        "surface-container-highest": "#e2e2e5",
+                        "surface-bright": "#f9f9fc",
+                        "surface-container-high": "#e8e8ea",
+                        "construction-orange": "#D97706",
+                        "inverse-on-surface": "#f0f0f3",
+                        "on-secondary": "#ffffff",
+                        "blueprint-blue": "#003366",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed": "#ffdcc2",
+                        "surface": "#f9f9fc",
+                        "primary-container": "#002b5b",
+                        "inverse-primary": "#a9c7ff",
+                        "surface-container-low": "#f3f3f6",
+                        "on-error": "#ffffff",
+                        "primary-fixed": "#d6e3ff",
+                        "tertiary": "#14181a",
+                        "on-surface": "#1a1c1e",
+                        "secondary": "#8c4f10",
+                        "on-primary-fixed-variant": "#264778",
+                        "on-surface-variant": "#43474f",
+                        "steel-gray": "#64748B",
+                        "surface-variant": "#e2e2e5",
+                        "on-primary": "#ffffff",
+                        "surface-dim": "#dadadc",
+                        "inverse-surface": "#2f3133",
+                        "on-tertiary-fixed-variant": "#43474a",
+                        "outline": "#747780",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-container": "#7594ca",
+                        "primary-fixed-dim": "#a9c7ff",
+                        "on-tertiary-fixed": "#181c1e",
+                        "on-primary-fixed": "#001b3d",
+                        "secondary-fixed-dim": "#ffb77b",
+                        "on-secondary-container": "#763f00",
+                        "tertiary-fixed": "#e0e3e6",
+                        "surface-container": "#eeeef0",
+                        "surface-tint": "#405f91",
+                        "primary": "#001736",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#2e1500",
+                        "safety-yellow": "#FBBF24",
+                        "error": "#ba1a1a",
+                        "tertiary-container": "#282c2e",
+                        "secondary-container": "#fdad67"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-sm": "12px",
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "stack-md": "24px",
+                        "margin-desktop": "40px",
+                        "base": "8px",
+                        "container-max": "1280px",
+                        "stack-lg": "48px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Manrope", "sans-serif"],
+                        "body-md": ["Inter", "sans-serif"],
+                        "body-lg": ["Inter", "sans-serif"],
+                        "headline-lg-mobile": ["Manrope", "sans-serif"],
+                        "label-sm": ["JetBrains Mono", "monospace"],
+                        "display-lg": ["Manrope", "sans-serif"],
+                        "headline-lg": ["Manrope", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "700" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col selection:bg-construction-orange selection:text-white">
+<!-- TopNavBar -->
+<header class="bg-surface dark:bg-surface-dim text-primary dark:text-primary-fixed font-body-md text-body-md w-full top-0 sticky border-b border-steel-gray/20 z-50">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-4">
+<a class="font-headline-md text-headline-md font-bold text-blueprint-blue dark:text-inverse-primary tracking-tight" href="#">
+                Aira Precision
+            </a>
+<nav class="hidden md:flex gap-gutter items-center">
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">About Us</a>
+<a class="text-secondary dark:text-secondary-fixed-dim font-bold border-b-2 border-secondary hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out pb-1" href="#">Services</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Portfolio</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Why Choose Us</a>
+</nav>
+<div class="hidden md:block">
+<button class="bg-primary text-on-primary font-body-md px-6 py-2 rounded hover:bg-blueprint-blue transition-colors duration-200 ease-in-out border border-transparent shadow-sm">
+                    Contact Us
+                </button>
+</div>
+<!-- Mobile Menu Toggle (Decorative) -->
+<button class="md:hidden text-on-surface-variant p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Page Header -->
+<section class="bg-surface-container-low pt-16 pb-12 px-margin-mobile md:px-margin-desktop border-b border-surface-container-high">
+<div class="max-w-container-max mx-auto">
+<div class="max-w-3xl">
+<p class="font-label-sm text-label-sm text-construction-orange uppercase tracking-wider mb-stack-sm flex items-center gap-2">
+<span class="w-8 h-[1px] bg-construction-orange inline-block"></span>
+                        Our Expertise
+                    </p>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-stack-md">
+                        Comprehensive Project Management Services
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                        We deliver structured, end-to-end oversight ensuring architectural intent translates perfectly into structural reality. Our methodology is rooted in precision, reliability, and rigorous data analysis across all project phases.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Services Content -->
+<section class="py-16 px-margin-mobile md:px-margin-desktop bg-background">
+<div class="max-w-container-max mx-auto space-y-24">
+<!-- 1. Pre-Construction -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<div class="lg:col-span-4 sticky top-32">
+<div class="flex items-center gap-4 mb-stack-sm">
+<div class="w-12 h-12 bg-primary text-on-primary flex items-center justify-center rounded-sm font-headline-md font-bold">
+                                01
+                            </div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary">Pre-Construction</h2>
+</div>
+<div class="h-[1px] w-full bg-steel-gray/30 mb-stack-md"></div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">
+                            Establishing the foundation for success before breaking ground. We conduct rigorous analysis, planning, and design management to mitigate risks and define clear operational blueprints.
+                        </p>
+</div>
+<div class="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="bg-surface-container-lowest p-stack-md border border-surface-container-highest rounded-sm shadow-sm hover:shadow-[0_4px_20px_rgba(0,43,91,0.08)] transition-shadow duration-300 border-t-4 border-t-blueprint-blue relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-[64px] text-blueprint-blue">architecture</span>
+</div>
+<span class="material-symbols-outlined text-blueprint-blue mb-stack-sm text-3xl">architecture</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-stack-sm">Design Management</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">
+                                Coordinating architectural, structural, and MEP designs to ensure clash-free documentation and alignment with project objectives.
+                            </p>
+<ul class="space-y-2 font-body-md text-body-md text-on-surface-variant">
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-xl">check</span> Schematic Design Review</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-xl">check</span> Value Engineering</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-xl">check</span> Constructability Analysis</li>
+</ul>
+</div>
+<div class="bg-surface-container-lowest p-stack-md border border-surface-container-highest rounded-sm shadow-sm hover:shadow-[0_4px_20px_rgba(0,43,91,0.08)] transition-shadow duration-300 border-t-4 border-t-blueprint-blue relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-[64px] text-blueprint-blue">analytics</span>
+</div>
+<span class="material-symbols-outlined text-blueprint-blue mb-stack-sm text-3xl">analytics</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-stack-sm">Feasibility &amp; Analysis</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">
+                                Comprehensive evaluation of site conditions, regulatory requirements, and financial modeling to validate project viability.
+                            </p>
+<ul class="space-y-2 font-body-md text-body-md text-on-surface-variant">
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-xl">check</span> Cost Estimation &amp; Budgeting</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-xl">check</span> Risk Assessment Modeling</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-xl">check</span> Master Scheduling</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- 2. Construction Phase -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<div class="lg:col-span-4 sticky top-32">
+<div class="flex items-center gap-4 mb-stack-sm">
+<div class="w-12 h-12 bg-construction-orange text-white flex items-center justify-center rounded-sm font-headline-md font-bold">
+                                02
+                            </div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary">Construction Phase</h2>
+</div>
+<div class="h-[1px] w-full bg-steel-gray/30 mb-stack-md"></div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">
+                            Active execution and oversight on-site. We drive progress while enforcing strict adherence to quality, safety, and timeline specifications through robust Project Management Consultancy (PMC).
+                        </p>
+</div>
+<div class="lg:col-span-8">
+<div class="bg-surface-container-lowest border border-surface-container-highest rounded-sm shadow-sm overflow-hidden mb-gutter border-l-4 border-l-construction-orange">
+<div class="grid grid-cols-1 md:grid-cols-5">
+<div class="md:col-span-2 relative h-48 md:h-auto border-b md:border-b-0 md:border-r border-surface-container-highest bg-surface-container-high">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A construction site viewed from above, featuring structural steel framing and active cranes against a clear sky, illustrating active project management and structural engineering progress." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDyUCSq_90KL_RoKCn_arv1ftitPMmNXPlVFubbIpkZyiMqbzTAOLotFGAnwKswxYj6jNOHl0cnNUfmr_-rPR4JkyYgEjghhpfabuoa_3AtZ18LecN3M2U_KWPN-2wKIgZ44lqF8SfldWFUEuC9hf2uYhSAJKySluM2eaN89WToKAdJt2pnRCNVc0kHzp4tLj12YQ9nMsYm-EWvzbpTW-ocO_72nzJ4EvT3_QTfwh1YKIJAPY-gDhx5')"></div>
+</div>
+<div class="md:col-span-3 p-stack-md">
+<div class="flex items-center gap-2 mb-2">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-construction-orange"><path d="m18 11-5.5-5.5a2 2 0 0 0-2.828 0L2 13v7h7l7.672-7.672a2 2 0 0 0 0-2.828Z"/><path d="m15.5 13.5 4.5-4.5a2 2 0 0 0 0-2.828L17.828 4a2 2 0 0 0-2.828 0L10.5 8.5"/></svg>
+<h3 class="font-headline-md text-headline-md text-primary">Project Management Consultancy (PMC)</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4">
+                                        Acting as the principal representative, we oversee daily operations, coordinate contractors, and ensure continuous alignment with the strategic roadmap.
+                                    </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface p-3 rounded-sm border border-surface-variant">
+<div class="font-label-sm text-label-sm text-steel-gray uppercase mb-1">Focus Area</div>
+<div class="font-body-md text-primary font-medium">Contract Administration</div>
+</div>
+<div class="bg-surface p-3 rounded-sm border border-surface-variant">
+<div class="font-label-sm text-label-sm text-steel-gray uppercase mb-1">Focus Area</div>
+<div class="font-body-md text-primary font-medium">Schedule Enforcement</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="bg-surface-container-lowest p-stack-md border border-surface-container-highest rounded-sm shadow-sm hover:shadow-[0_4px_20px_rgba(0,43,91,0.08)] transition-shadow duration-300 border-t-4 border-t-construction-orange">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-construction-orange mb-stack-sm"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+<h3 class="font-headline-md text-headline-md text-primary mb-stack-sm">Quality Assurance (QA/QC)</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                    Implementing strict inspection protocols and material testing to guarantee all structural and aesthetic elements meet specified standards.
+                                </p>
+</div>
+<div class="bg-surface-container-lowest p-stack-md border border-surface-container-highest rounded-sm shadow-sm hover:shadow-[0_4px_20px_rgba(0,43,91,0.08)] transition-shadow duration-300 border-t-4 border-t-construction-orange">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-construction-orange mb-stack-sm"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12h6"/><path d="M12 9v6"/></svg>
+<h3 class="font-headline-md text-headline-md text-primary mb-stack-sm">HSE Supervision</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                    Enforcing Health, Safety, and Environment protocols to maintain a zero-incident culture and ensure regulatory compliance on site.
+                                </p>
+</div>
+</div>
+</div>
+</div>
+<!-- 3. Post-Construction -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<div class="lg:col-span-4 sticky top-32">
+<div class="flex items-center gap-4 mb-stack-sm">
+<div class="w-12 h-12 bg-secondary text-white flex items-center justify-center rounded-sm font-headline-md font-bold">
+                                03
+                            </div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary">Post-Construction</h2>
+</div>
+<div class="h-[1px] w-full bg-steel-gray/30 mb-stack-md"></div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">
+                            Ensuring a seamless transition from construction to occupancy. We manage the final detailed inspections, documentation, and formal handover processes.
+                        </p>
+</div>
+<div class="lg:col-span-8 bg-surface-container-lowest border border-surface-container-highest rounded-sm p-stack-md md:p-8 shadow-sm border-t-4 border-t-secondary">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="md:col-span-1">
+<span class="material-symbols-outlined text-secondary mb-2 text-4xl">domain_verification</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Final Verification</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                    Comprehensive auditing of the completed structure against original blueprints and contractual obligations.
+                                </p>
+</div>
+<div class="md:col-span-2 space-y-4">
+<div class="flex gap-4 p-4 bg-surface rounded-sm border border-surface-variant">
+<div class="bg-secondary/10 p-2 rounded-sm h-fit">
+<span class="material-symbols-outlined text-secondary">checklist_rtl</span>
+</div>
+<div>
+<h4 class="font-body-lg text-body-lg text-primary font-medium mb-1">Snagging &amp; Defect Resolution</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Identification, documentation, and managed rectification of all minor defects prior to practical completion certification.</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 bg-surface rounded-sm border border-surface-variant">
+<div class="bg-secondary/10 p-2 rounded-sm h-fit">
+<span class="material-symbols-outlined text-secondary">assignment_turned_in</span>
+</div>
+<div>
+<h4 class="font-body-lg text-body-lg text-primary font-medium mb-1">Handover &amp; Documentation</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Compilation of As-Built drawings, O&amp;M manuals, warranties, and training coordination for facility management teams.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="bg-primary text-on-primary py-16 px-margin-mobile md:px-margin-desktop border-t-4 border-construction-orange">
+<div class="max-w-container-max mx-auto text-center">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg mb-stack-sm">Ready to structure your next project?</h2>
+<p class="font-body-lg text-body-lg text-on-primary/80 mb-stack-md max-w-2xl mx-auto">
+                    Partner with Aira Construction Services for authoritative project management and uncompromising structural integrity.
+                </p>
+<button class="bg-construction-orange text-white font-body-md px-8 py-3 rounded hover:bg-opacity-90 transition-all duration-200 ease-in-out border border-transparent shadow-sm font-medium">
+                    Discuss Your Project Requirements
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary dark:bg-primary-container text-on-primary dark:text-on-primary-container font-body-md text-body-md w-full border-t border-steel-gray/30">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg">
+<div class="md:col-span-4 flex flex-col justify-between">
+<div>
+<span class="font-headline-md text-headline-md font-bold text-on-primary mb-4 block">Aira Precision</span>
+<p class="text-on-primary/80 dark:text-on-primary-container/80 max-w-sm mb-6">
+                        Delivering structural integrity and reliable project management consultancy for enterprise clients.
+                    </p>
+</div>
+<p class="text-sm text-on-primary/60">© 2024 Aira Construction Services. All rights reserved.</p>
+</div>
+<div class="md:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-8">
+<div>
+<h4 class="font-bold mb-4 text-on-primary">Services</h4>
+<ul class="space-y-2">
+<li><a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Pre-Construction</a></li>
+<li><a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Project Management</a></li>
+<li><a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Post-Construction</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-4 text-on-primary">Company</h4>
+<ul class="space-y-2">
+<li><a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">About Us</a></li>
+<li><a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Portfolio</a></li>
+<li><a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-4 text-on-primary">Legal</h4>
+<ul class="space-y-2">
+<li><a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Privacy Policy</a></li>
+<li><a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Terms of Service</a></li>
+<li><a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Cookie Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

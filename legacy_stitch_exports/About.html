@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us - Aira Construction Services</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline-variant": "#c4c6d0",
+                        "background": "#f9f9fc",
+                        "on-secondary-fixed-variant": "#6d3a00",
+                        "on-background": "#1a1c1e",
+                        "tertiary-fixed-dim": "#c3c7ca",
+                        "on-tertiary-container": "#8f9396",
+                        "error-container": "#ffdad6",
+                        "surface-container-highest": "#e2e2e5",
+                        "surface-bright": "#f9f9fc",
+                        "surface-container-high": "#e8e8ea",
+                        "construction-orange": "#D97706",
+                        "inverse-on-surface": "#f0f0f3",
+                        "on-secondary": "#ffffff",
+                        "blueprint-blue": "#003366",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed": "#ffdcc2",
+                        "surface": "#f9f9fc",
+                        "primary-container": "#002b5b",
+                        "inverse-primary": "#a9c7ff",
+                        "surface-container-low": "#f3f3f6",
+                        "on-error": "#ffffff",
+                        "primary-fixed": "#d6e3ff",
+                        "tertiary": "#14181a",
+                        "on-surface": "#1a1c1e",
+                        "secondary": "#8c4f10",
+                        "on-primary-fixed-variant": "#264778",
+                        "on-surface-variant": "#43474f",
+                        "steel-gray": "#64748B",
+                        "surface-variant": "#e2e2e5",
+                        "on-primary": "#ffffff",
+                        "surface-dim": "#dadadc",
+                        "inverse-surface": "#2f3133",
+                        "on-tertiary-fixed-variant": "#43474a",
+                        "outline": "#747780",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-container": "#7594ca",
+                        "primary-fixed-dim": "#a9c7ff",
+                        "on-tertiary-fixed": "#181c1e",
+                        "on-primary-fixed": "#001b3d",
+                        "secondary-fixed-dim": "#ffb77b",
+                        "on-secondary-container": "#763f00",
+                        "tertiary-fixed": "#e0e3e6",
+                        "surface-container": "#eeeef0",
+                        "surface-tint": "#405f91",
+                        "primary": "#001736",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#2e1500",
+                        "safety-yellow": "#FBBF24",
+                        "error": "#ba1a1a",
+                        "tertiary-container": "#282c2e",
+                        "secondary-container": "#fdad67"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-sm": "12px",
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "stack-md": "24px",
+                        "margin-desktop": "40px",
+                        "base": "8px",
+                        "container-max": "1280px",
+                        "stack-lg": "48px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Manrope"],
+                        "body-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-lg-mobile": ["Manrope"],
+                        "label-sm": ["JetBrains Mono"],
+                        "display-lg": ["Manrope"],
+                        "headline-lg": ["Manrope"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "700" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .elevation-0 { @apply bg-background; }
+            .elevation-1 { @apply bg-white border border-[#E2E8F0]; }
+            .elevation-2 { @apply bg-white shadow-[0px_4px_20px_rgba(0,43,91,0.08)] border border-[#E2E8F0]; }
+            .section-divider { @apply border-b border-outline-variant/30 mt-stack-md mb-stack-lg; }
+            .interactive-card { @apply transition-all duration-300 hover:-translate-y-[2px] hover:border-blueprint-blue; }
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased selection:bg-blueprint-blue selection:text-white">
+<!-- TopNavBar -->
+<nav class="bg-surface dark:bg-surface-dim text-primary dark:text-primary-fixed font-body-md text-body-md w-full top-0 sticky border-b border-steel-gray/20 z-50 transition-all duration-200 ease-in-out">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-4">
+<a class="font-headline-md text-headline-md font-bold text-blueprint-blue dark:text-inverse-primary" href="#">
+                Aira Precision
+            </a>
+<div class="hidden md:flex items-center space-x-gutter">
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Home</a>
+<a class="text-secondary dark:text-secondary-fixed-dim font-bold border-b-2 border-secondary hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">About Us</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Services</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Portfolio</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Why Choose Us</a>
+</div>
+<div class="hidden md:flex items-center">
+<button class="bg-blueprint-blue text-white px-6 py-2 rounded font-body-md hover:bg-primary transition-colors">
+                    Contact Us
+                </button>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg">
+<!-- Hero Section -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-stack-lg items-center">
+<div class="md:col-span-6 space-y-stack-md">
+<div>
+<h1 class="font-display-lg text-display-lg md:text-display-lg font-bold text-primary mb-2">Building Trust Through Structural Integrity.</h1>
+<div class="w-16 h-1 bg-blueprint-blue"></div>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg">
+                    Aira Construction Services is a premier project management consultancy dedicated to delivering complex infrastructure with absolute precision and uncompromising standards.
+                </p>
+</div>
+<div class="md:col-span-6">
+<div class="elevation-1 p-2 rounded">
+<img class="w-full h-auto aspect-video object-cover rounded" data-alt="A professional architectural construction site at golden hour, showing exposed steel framework and a large blueprint rolled out in the foreground on a drafting table. The scene is lit with warm, authoritative light emphasizing structural strength, employing a modern corporate style with deep navy and subtle orange accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmrb10OSqdbIoc5mZHatNL_GuEIH44IIYifzZuP0b-ghy2Dm_TI0MdamixuvQ1xpQSEtfoFmgZ8MuA6QZLh1uoBYSGdl18fGe1aZLMJNGGVXllgMqF3PN5crEcZ_Negdo4hKbE0bCtUHGkmvoEVRe1ZxAwyjFMXZ5DpQia7JfmsMUzM-k0xENGWyArARL0jDtLYY4V_ygCv_PtrwNtAKcAeuBbe8eHY1j33PjsKelTTJo89X02jmKT"/>
+</div>
+</div>
+</section>
+<!-- Mission & Vision Bento Grid -->
+<section class="mb-stack-lg">
+<div class="mb-stack-md">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary">Core Purpose</h2>
+<div class="section-divider mt-2"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Mission -->
+<div class="elevation-1 rounded p-stack-md border-t-4 border-t-blueprint-blue interactive-card flex flex-col h-full">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-blueprint-blue">
+<span class="material-symbols-outlined text-2xl">track_changes</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Our Mission</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant flex-grow">
+                        To provide meticulous project management and consultancy services that ensure architectural visions are realized with exact structural fidelity, strict budget adherence, and flawless execution. We translate blueprints into reality with unwavering reliability.
+                    </p>
+</div>
+<!-- Vision -->
+<div class="elevation-1 rounded p-stack-md border-t-4 border-t-construction-orange interactive-card flex flex-col h-full">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-construction-orange">
+<span class="material-symbols-outlined text-2xl">visibility</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Our Vision</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant flex-grow">
+                        To be the definitive benchmark for construction consultancy globally, recognized for pioneering robust methodologies that elevate the standards of enterprise infrastructure and foster sustainable urban development.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Commitments Section -->
+<section class="mb-stack-lg">
+<div class="mb-stack-md">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary">Our Commitments</h2>
+<div class="section-divider mt-2"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Pillar 1: Excellence & Quality -->
+<div class="elevation-1 rounded p-stack-sm interactive-card">
+<div class="h-32 bg-surface-container-high rounded mb-4 flex items-center justify-center text-steel-gray">
+<span class="material-symbols-outlined text-4xl">verified</span>
+</div>
+<h4 class="font-headline-md text-[20px] leading-tight font-semibold text-primary mb-2">Excellence &amp; Quality</h4>
+<p class="font-body-md text-sm text-on-surface-variant">
+                        Rigorous QA processes and uncompromising standards ensure every phase of construction meets exacting specifications.
+                    </p>
+</div>
+<!-- Pillar 2: Innovation -->
+<div class="elevation-1 rounded p-stack-sm interactive-card">
+<div class="h-32 bg-surface-container-high rounded mb-4 flex items-center justify-center text-steel-gray">
+<span class="material-symbols-outlined text-4xl">lightbulb</span>
+</div>
+<h4 class="font-headline-md text-[20px] leading-tight font-semibold text-primary mb-2">Innovation</h4>
+<p class="font-body-md text-sm text-on-surface-variant">
+                        Leveraging modern technology, BIM, and advanced analytics to optimize workflows and predict structural outcomes.
+                    </p>
+</div>
+<!-- Pillar 3: Sustainability -->
+<div class="elevation-1 rounded p-stack-sm interactive-card">
+<div class="h-32 bg-surface-container-high rounded mb-4 flex items-center justify-center text-steel-gray">
+<span class="material-symbols-outlined text-4xl">eco</span>
+</div>
+<h4 class="font-headline-md text-[20px] leading-tight font-semibold text-primary mb-2">Sustainability</h4>
+<p class="font-body-md text-sm text-on-surface-variant">
+                        Dedicated to responsible development practices that minimize environmental impact and maximize long-term asset value.
+                    </p>
+</div>
+<!-- Pillar 4: Transparency & Integrity -->
+<div class="elevation-1 rounded p-stack-sm interactive-card">
+<div class="h-32 bg-surface-container-high rounded mb-4 flex items-center justify-center text-steel-gray">
+<span class="material-symbols-outlined text-4xl">handshake</span>
+</div>
+<h4 class="font-headline-md text-[20px] leading-tight font-semibold text-primary mb-2">Transparency &amp; Integrity</h4>
+<p class="font-body-md text-sm text-on-surface-variant">
+                        Fostering open communication and ethical practices with all stakeholders to build enduring professional trust.
+                    </p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary dark:bg-primary-container text-on-primary dark:text-on-primary-container font-body-md text-body-md w-full border-t border-steel-gray/30 transition-all">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter max-w-container-max mx-auto px-margin-desktop py-stack-lg">
+<div class="md:col-span-4 space-y-4">
+<span class="font-headline-md text-headline-md font-bold text-on-primary">
+                    Aira Construction Services
+                </span>
+<p class="text-on-primary/80 dark:text-on-primary-container/80 text-sm">
+                    Project management consultancy ensuring reliability and structural integrity.
+                </p>
+</div>
+<div class="md:col-span-8 flex flex-col md:flex-row justify-end items-start md:items-center gap-6">
+<div class="flex flex-col md:flex-row gap-4">
+<a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Privacy Policy</a>
+<a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Terms of Service</a>
+<a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Cookie Policy</a>
+</div>
+</div>
+<div class="md:col-span-12 mt-stack-md pt-4 border-t border-white/10 text-sm text-on-primary/60">
+                © 2024 Aira Construction Services. All rights reserved.
+            </div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact Us - Aira Construction Services</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@100..900&family=Manrope:wght@100..900&display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<!-- Tailwind CSS & Configuration -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline-variant": "#c4c6d0",
+                        "background": "#f9f9fc",
+                        "on-secondary-fixed-variant": "#6d3a00",
+                        "on-background": "#1a1c1e",
+                        "tertiary-fixed-dim": "#c3c7ca",
+                        "on-tertiary-container": "#8f9396",
+                        "error-container": "#ffdad6",
+                        "surface-container-highest": "#e2e2e5",
+                        "surface-bright": "#f9f9fc",
+                        "surface-container-high": "#e8e8ea",
+                        "construction-orange": "#D97706",
+                        "inverse-on-surface": "#f0f0f3",
+                        "on-secondary": "#ffffff",
+                        "blueprint-blue": "#003366",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed": "#ffdcc2",
+                        "surface": "#f9f9fc",
+                        "primary-container": "#002b5b",
+                        "inverse-primary": "#a9c7ff",
+                        "surface-container-low": "#f3f3f6",
+                        "on-error": "#ffffff",
+                        "primary-fixed": "#d6e3ff",
+                        "tertiary": "#14181a",
+                        "on-surface": "#1a1c1e",
+                        "secondary": "#8c4f10",
+                        "on-primary-fixed-variant": "#264778",
+                        "on-surface-variant": "#43474f",
+                        "steel-gray": "#64748B",
+                        "surface-variant": "#e2e2e5",
+                        "on-primary": "#ffffff",
+                        "surface-dim": "#dadadc",
+                        "inverse-surface": "#2f3133",
+                        "on-tertiary-fixed-variant": "#43474a",
+                        "outline": "#747780",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-container": "#7594ca",
+                        "primary-fixed-dim": "#a9c7ff",
+                        "on-tertiary-fixed": "#181c1e",
+                        "on-primary-fixed": "#001b3d",
+                        "secondary-fixed-dim": "#ffb77b",
+                        "on-secondary-container": "#763f00",
+                        "tertiary-fixed": "#e0e3e6",
+                        "surface-container": "#eeeef0",
+                        "surface-tint": "#405f91",
+                        "primary": "#001736",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#2e1500",
+                        "safety-yellow": "#FBBF24",
+                        "error": "#ba1a1a",
+                        "tertiary-container": "#282c2e",
+                        "secondary-container": "#fdad67"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-sm": "12px",
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "stack-md": "24px",
+                        "margin-desktop": "40px",
+                        "base": "8px",
+                        "container-max": "1280px",
+                        "stack-lg": "48px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Manrope"],
+                        "body-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-lg-mobile": ["Manrope"],
+                        "label-sm": ["JetBrains Mono"],
+                        "display-lg": ["Manrope"],
+                        "headline-lg": ["Manrope"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "700"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-primary selection:text-on-primary min-h-screen flex flex-col">
+<!-- TopNavBar Shared Component -->
+<nav class="bg-surface dark:bg-surface-dim font-body-md text-body-md w-full top-0 sticky border-b border-steel-gray/20 z-50">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-desktop py-4">
+<div class="font-headline-md text-headline-md font-bold text-blueprint-blue dark:text-inverse-primary cursor-pointer">
+                Aira Precision
+            </div>
+<div class="hidden md:flex gap-gutter items-center">
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">About Us</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Services</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Portfolio</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200 ease-in-out" href="#">Why Choose Us</a>
+</div>
+<button class="hidden md:flex items-center justify-center bg-primary-container text-on-primary px-gutter py-stack-sm rounded-DEFAULT font-label-sm text-label-sm hover:bg-blueprint-blue transition-colors">
+                Contact Us
+            </button>
+<button class="md:hidden text-on-surface">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<!-- Page Header -->
+<header class="w-full bg-surface-container-lowest border-b border-surface-container-highest py-stack-lg px-margin-mobile md:px-margin-desktop text-center md:text-left">
+<div class="max-w-container-max mx-auto flex flex-col gap-stack-sm">
+<h1 class="font-display-lg text-display-lg text-primary">Contact Us</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
+                Ready to discuss your next structural project? Connect with our project management team to ensure precision and reliability from blueprint to build.
+            </p>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-grow w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Left Column: Contact Info & Map (Cols 1-5) -->
+<div class="md:col-span-5 flex flex-col gap-stack-md">
+<!-- Contact Information Card -->
+<div class="bg-surface-container-lowest border border-surface-container-highest rounded-lg p-stack-md flex flex-col gap-stack-md shadow-[0px_4px_20px_rgba(0,43,91,0.08)]">
+<h2 class="font-headline-md text-headline-md text-primary border-b border-surface-container-highest pb-stack-sm">Corporate Office</h2>
+<div class="flex flex-col gap-stack-sm">
+<div class="flex items-start gap-stack-sm">
+<span class="material-symbols-outlined text-blueprint-blue mt-1">location_on</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-1">Address</p>
+<p class="font-body-md text-body-md text-on-surface">
+                                450 Structural Way, Suite 1200<br/>
+                                Engineering District<br/>
+                                Chicago, IL 60601
+                            </p>
+</div>
+</div>
+<hr class="border-surface-container-highest my-base"/>
+<div class="flex items-start gap-stack-sm">
+<span class="material-symbols-outlined text-blueprint-blue mt-1">call</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-1">Phone</p>
+<p class="font-body-md text-body-md text-on-surface">+1 (555) 247-2200</p>
+</div>
+</div>
+<hr class="border-surface-container-highest my-base"/>
+<div class="flex items-start gap-stack-sm">
+<span class="material-symbols-outlined text-blueprint-blue mt-1">mail</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-1">Email</p>
+<p class="font-body-md text-body-md text-blueprint-blue hover:underline cursor-pointer">
+                                info@ayraconstruction.com
+                            </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Map Widget -->
+<div class="w-full h-64 bg-surface-container-highest border border-surface-container-highest rounded-lg overflow-hidden relative shadow-[0px_4px_20px_rgba(0,43,91,0.08)]">
+<img class="w-full h-full object-cover" data-alt="A detailed aerial view of a modern urban downtown district with highly structured grid-like streets and tall, sleek architectural skyscrapers. The scene is illuminated by crisp, cool daylight casting sharp geometric shadows, evoking a sense of structural integrity and modern city planning. Deep blueprint-blue tones dominate the glass facades, contrasted by clean whites and subtle metallic grays." data-location="Chicago" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyd2-5b4Eoo8L5JS0i1xvqOI7B2YGllGxEYU9QG_VwznAJwWK1HLSWfbrC6_WJTrDoh4KOwC86HF_b1W5HROb6qg_oucUOlJX-OBsFEhU1SgTVj9eZSPBJdCCOAhdNVb67PPVBuOJv_Urrhp3pKO_2BvGPdlMZHcKD_ZFw6DI0zM1i_d5WI22GaQhjKscB41CmHSoji115AnTHYsGNzizBTs_18-NCRTmrS2HAGbBN_Lr77Oh7WlAZ"/>
+<div class="absolute inset-0 bg-primary/10 pointer-events-none"></div>
+</div>
+</div>
+<!-- Right Column: Form (Cols 7-12) -->
+<div class="md:col-start-7 md:col-span-6">
+<div class="bg-surface-container-lowest border border-surface-container-highest rounded-lg border-t-4 border-t-blueprint-blue p-stack-md lg:p-stack-lg shadow-[0px_4px_20px_rgba(0,43,91,0.08)]">
+<h2 class="font-headline-md text-headline-md text-primary mb-base">Business Enquiries</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md pb-stack-sm border-b border-surface-container-highest">
+                    Submit your project details below. Our oversight committee will review your inquiry and respond within 24 business hours.
+                </p>
+<form class="flex flex-col gap-stack-sm">
+<!-- Name Field -->
+<div class="flex flex-col gap-base">
+<label class="font-label-sm text-label-sm text-on-surface-variant" for="fullName">Full Name *</label>
+<input class="bg-surface-bright border border-outline-variant text-on-surface font-body-md text-body-md rounded-DEFAULT p-stack-sm focus:outline-none focus:border-blueprint-blue focus:ring-1 focus:ring-blueprint-blue transition-colors" id="fullName" placeholder="Jane Doe" type="text"/>
+</div>
+<!-- Email & Phone Row -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-gutter">
+<div class="flex flex-col gap-base">
+<label class="font-label-sm text-label-sm text-on-surface-variant" for="emailAddr">Email Address *</label>
+<input class="bg-surface-bright border border-outline-variant text-on-surface font-body-md text-body-md rounded-DEFAULT p-stack-sm focus:outline-none focus:border-blueprint-blue focus:ring-1 focus:ring-blueprint-blue transition-colors" id="emailAddr" placeholder="jane@company.com" type="email"/>
+</div>
+<div class="flex flex-col gap-base">
+<label class="font-label-sm text-label-sm text-on-surface-variant" for="phoneNum">Phone Number</label>
+<input class="bg-surface-bright border border-outline-variant text-on-surface font-body-md text-body-md rounded-DEFAULT p-stack-sm focus:outline-none focus:border-blueprint-blue focus:ring-1 focus:ring-blueprint-blue transition-colors" id="phoneNum" placeholder="+1 (555) 000-0000" type="tel"/>
+</div>
+</div>
+<!-- Message Field -->
+<div class="flex flex-col gap-base mt-stack-sm">
+<label class="font-label-sm text-label-sm text-on-surface-variant" for="enquiryMsg">Project Details / Message *</label>
+<textarea class="bg-surface-bright border border-outline-variant text-on-surface font-body-md text-body-md rounded-DEFAULT p-stack-sm focus:outline-none focus:border-blueprint-blue focus:ring-1 focus:ring-blueprint-blue transition-colors resize-y" id="enquiryMsg" placeholder="Briefly describe your construction project requirements..." rows="5"></textarea>
+</div>
+<!-- Submit Button -->
+<div class="mt-stack-md flex justify-end">
+<button class="bg-primary hover:bg-primary-container text-on-primary font-label-sm text-label-sm px-stack-md py-stack-sm rounded-DEFAULT transition-colors flex items-center gap-base" type="submit">
+                            Submit Inquiry
+                            <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</main>
+<!-- Footer Shared Component -->
+<footer class="bg-primary dark:bg-primary-container w-full border-t border-steel-gray/30 font-body-md text-body-md mt-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter max-w-container-max mx-auto px-margin-desktop py-stack-lg">
+<div class="md:col-span-12 flex flex-col md:flex-row justify-between items-center gap-stack-md">
+<div class="font-headline-md text-headline-md font-bold text-on-primary">
+                    Aira Precision
+                </div>
+<div class="flex gap-gutter flex-wrap justify-center">
+<a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Privacy Policy</a>
+<a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Terms of Service</a>
+<a class="text-on-primary/80 dark:text-on-primary-container/80 hover:text-on-primary underline transition-all" href="#">Cookie Policy</a>
+</div>
+</div>
+<div class="md:col-span-12 text-center text-on-primary/60 mt-stack-sm font-label-sm text-label-sm">
+                © 2024 Aira Construction Services. All rights reserved.
+            </div>
+</div>
+</footer>
+</body></html>
