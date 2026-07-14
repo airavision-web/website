@@ -83,10 +83,10 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Aira Vision. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="#" className="text-on-primary/80 hover:text-white transition">
+              <Link href="/privacy" className="text-on-primary/80 hover:text-white transition">
                 Privacy Policy
               </Link>
-              <Link href="#" className="text-on-primary/80 hover:text-white transition">
+              <Link href="/terms" className="text-on-primary/80 hover:text-white transition">
                 Terms & Conditions
               </Link>
             </div>
