@@ -10,7 +10,7 @@ export default function Home() {
         {/* Full-width background image */}
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/hero-bg.png')" }}
+          style={{ backgroundImage: "url('/assets/construction_site.webp')" }}
         ></div>
         
         {/* Gradient Overlay: Opaque white on the left, fading to transparent on the right */}
@@ -24,7 +24,7 @@ export default function Home() {
             {/* Logo and Title group - aligns logo center above text */}
             <div className="flex flex-col items-center w-fit">
               <img 
-                src="/logo.svg" 
+                src="/assets/aira_icon.webp" 
                 alt="Aira Vision Logo" 
                 className="h-24 md:h-32 mb-4 object-contain mix-blend-multiply" 
               />
