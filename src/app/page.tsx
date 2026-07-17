@@ -26,12 +26,12 @@ export default function Home() {
                   className="h-20 md:h-28 object-contain" 
                 />
               </div>
-              <h1 className="text-4xl md:text-6xl font-black text-white tracking-tight mb-2 uppercase drop-shadow-lg">
+              <h1 className="text-3xl md:text-5xl font-black text-white tracking-tight mb-2 uppercase drop-shadow-lg">
                 AIRA VISION
               </h1>
             </div>
 
-            <h2 className="text-xl md:text-3xl font-serif text-white mb-10 mt-2 drop-shadow-md">
+            <h2 className="text-lg md:text-2xl font-serif text-white mb-10 mt-2 drop-shadow-md">
               Bringing Your Vision To Scale
             </h2>
             
