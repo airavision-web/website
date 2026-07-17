@@ -7,17 +7,14 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full top-0 sticky bg-surface border-b border-steel-gray/20 z-50">
+    <nav className="w-full top-0 sticky bg-white border-b border-steel-gray/20 z-50">
       <div className="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-4">
           <Link href="/" className="flex items-center gap-4 group">
             <img
               alt="Aira Vision Logo"
-              className="h-10 w-10 object-contain drop-shadow-sm"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAShwERnZMF_CNPRCwErUWPNyYwzflEOACZtnKFpaycwmEhKgd6pTfu6akgpzNHi2nVe1nzoSRQcKTwGoQ2Kj6kQgPKeUcgf6vXqVW72JdYQYqc1f0VpGUhQf2VjdM7O740IIKC0wYw49Dn4sCORIEUbzle8lvrf-1BpZTzUDoloWqt46T9csgt7a799BmneP-lWyVeWZWXPgPf1Wp0jo0-y2O7mUWbZyFVVJHu5Z5CmmZ36QzsKZcKp337sYe90iE4jQ"
+              className="h-14 w-auto object-contain mix-blend-multiply"
+              src="/assets/Aira_Vision_logo.webp"
             />
-            <span className="font-headline-md text-2xl font-black text-slate-900 uppercase tracking-tighter">
-              Aira Vision
-            </span>
           </Link>
         <div className="hidden md:flex items-center gap-6">
 
