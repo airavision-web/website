@@ -24,7 +24,7 @@ export default function Home() {
             {/* Logo and Title group - aligns logo center above text */}
             <div className="flex flex-col items-center w-fit">
               <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAShwERnZMF_CNPRCwErUWPNyYwzflEOACZtnKFpaycwmEhKgd6pTfu6akgpzNHi2nVe1nzoSRQcKTwGoQ2Kj6kQgPKeUcgf6vXqVW72JdYQYqc1f0VpGUhQf2VjdM7O740IIKC0wYw49Dn4sCORIEUbzle8lvrf-1BpZTzUDoloWqt46T9csgt7a799BmneP-lWyVeWZWXPgPf1Wp0jo0-y2O7mUWbZyFVVJHu5Z5CmmZ36QzsKZcKp337sYe90iE4jQ" 
+                src="/logo.svg" 
                 alt="Aira Vision Logo" 
                 className="h-24 md:h-32 mb-4 object-contain mix-blend-multiply" 
               />
