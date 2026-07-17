@@ -57,13 +57,15 @@
   --color-on-tertiary-fixed-variant: #43474a;
 
   /* Typography */
-  --font-headline-md: Manrope, sans-serif;
-  --font-body-md: Inter, sans-serif;
-  --font-body-lg: Inter, sans-serif;
-  --font-headline-lg-mobile: Manrope, sans-serif;
-  --font-label-sm: "JetBrains Mono", monospace;
-  --font-display-lg: Manrope, sans-serif;
-  --font-headline-lg: Manrope, sans-serif;
+  --font-sans: var(--font-inter), sans-serif;
+  --font-serif: var(--font-manrope), serif;
+  
+  --font-headline-md: var(--font-manrope), sans-serif;
+  --font-body-md: var(--font-inter), sans-serif;
+  --font-body-lg: var(--font-inter), sans-serif;
+  --font-headline-lg-mobile: var(--font-manrope), sans-serif;
+  --font-display-lg: var(--font-manrope), sans-serif;
+  --font-headline-lg: var(--font-manrope), sans-serif;
 
   /* Custom Font Sizes */
   --text-body-md: 1.125rem;
