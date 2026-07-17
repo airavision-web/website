@@ -12,10 +12,6 @@ export default function Home() {
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/assets/construction_site.webp')" }}
         ></div>
-        
-        {/* Gradient Overlay: Opaque white on the left, fading to transparent on the right */}
-        <div className="absolute inset-0 z-0 bg-gradient-to-r from-white via-white/95 to-transparent w-full md:w-[80%]"></div>
-        <div className="absolute inset-0 z-0 bg-gradient-to-r from-white to-transparent w-full md:w-[50%]"></div>
 
         {/* Content overlaid on the left */}
         <div className="relative z-10 w-full md:w-[60%] flex flex-col justify-center px-8 md:px-16 lg:px-24 py-16 md:py-24">
@@ -23,17 +19,19 @@ export default function Home() {
             
             {/* Logo and Title group - aligns logo center above text */}
             <div className="flex flex-col items-center w-fit">
-              <img 
-                src="/assets/aira_icon.webp" 
-                alt="Aira Vision Logo" 
-                className="h-24 md:h-32 mb-4 object-contain mix-blend-multiply" 
-              />
-              <h1 className="text-5xl md:text-7xl font-black text-[#0f172a] tracking-tight mb-2 uppercase">
+              <div className="bg-white/95 backdrop-blur-md p-5 rounded-2xl shadow-2xl mb-6 flex items-center justify-center">
+                <img 
+                  src="/assets/aira_icon.webp" 
+                  alt="Aira Vision Logo" 
+                  className="h-20 md:h-28 object-contain" 
+                />
+              </div>
+              <h1 className="text-5xl md:text-7xl font-black text-white tracking-tight mb-2 uppercase drop-shadow-lg">
                 AIRA VISION
               </h1>
             </div>
 
-            <h2 className="text-2xl md:text-4xl font-serif text-[#0f172a] mb-10 mt-2">
+            <h2 className="text-2xl md:text-4xl font-serif text-white mb-10 mt-2 drop-shadow-md">
               Bringing Your Vision To Scale
             </h2>
             
@@ -41,7 +39,7 @@ export default function Home() {
               <Link href="/services/project-management" className="bg-[#ea580c] hover:bg-[#c2410c] text-white px-8 py-4 text-sm font-bold tracking-widest uppercase text-center transition-colors shadow-sm">
                 PMC SERVICES
               </Link>
-              <Link href="/services/home-inspection" className="border-2 border-[#0f172a] bg-transparent hover:bg-slate-50 text-[#0f172a] px-8 py-4 text-sm font-bold tracking-widest uppercase text-center transition-colors shadow-sm">
+              <Link href="/services/home-inspection" className="border-2 border-white bg-transparent hover:bg-white text-white hover:text-[#0f172a] px-8 py-4 text-sm font-bold tracking-widest uppercase text-center transition-colors shadow-sm">
                 HOME INSPECTIONS
               </Link>
             </div>
