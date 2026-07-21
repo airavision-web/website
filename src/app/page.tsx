@@ -74,13 +74,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row gap-12 lg:gap-24 items-start lg:items-center">
             <div className="lg:w-5/12">
-              <span className="font-semibold text-xs tracking-widest uppercase text-blue-600 mb-4 block">Professional Consultancy</span>
-              <h2 className="text-4xl md:text-5xl font-medium text-[#0f172a] mb-6 tracking-tight">Precision in Every Phase.</h2>
+              <span className="font-semibold text-xs tracking-widest uppercase text-blue-600 mb-4 block">WHY CHOOSE AIRA VISION</span>
+              <h2 className="text-4xl md:text-5xl font-medium text-[#0f172a] mb-6 tracking-tight">Building Confidence at Every Stage.</h2>
               <div className="h-[3px] w-16 bg-[#ea580c]"></div>
             </div>
             <div className="lg:w-7/12">
               <p className="text-[15px] md:text-[16px] text-slate-600 leading-[1.9]">
-                At Aira Vision, we operate at the intersection of strategic planning and rigorous execution. We are not just overseers; we are your dedicated advocates on the ground. By applying advanced project management methodologies and stringent quality control protocols, we mitigate risk and streamline complex construction processes. Our approach is deeply rooted in structural integrity and transparent reporting, building trust with enterprise clients through every milestone.
+                At Aira Vision, we believe every successful project starts with careful planning and ends with uncompromising quality. Whether you're purchasing a home, managing a construction project, or designing an interior, our team provides expert guidance, detailed inspections, and professional oversight to help you make informed decisions with confidence.
               </p>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function Home() {
         <div className="absolute left-0 top-0 bottom-0 w-48 bg-[url('/dotted-pattern.png')] opacity-10"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="mb-12">
-            <h2 className="text-3xl md:text-4xl font-medium text-[#0f172a] mb-6 tracking-tight">Services Snapshot</h2>
+            <h2 className="text-3xl md:text-4xl font-medium text-[#0f172a] mb-6 tracking-tight">Our Expertise</h2>
             <div className="h-px w-full bg-slate-200"></div>
           </div>
           
@@ -104,9 +104,17 @@ export default function Home() {
                   <Network className="w-8 h-8 text-blue-800" strokeWidth={1.5} />
                 </div>
                 <h3 className="text-xl font-bold text-[#0f172a] mb-4">Project Management</h3>
-                <p className="text-[14px] text-slate-500 leading-[1.8] mb-6">
-                  Comprehensive lifecycle oversight, from initial feasibility studies through to final delivery. We coordinate specialized teams, manage complex timelines, and maintain strict adherence to enterprise-grade budgets.
-                </p>
+                <div className="mb-6">
+                  <h4 className="text-[13px] font-bold text-[#0f172a] mb-3 uppercase tracking-wider">Highlights</h4>
+                  <ul className="space-y-2">
+                    {["End-to-end project coordination", "Budget & timeline management", "Site supervision", "Vendor & contractor coordination", "Quality monitoring"].map((item, i) => (
+                      <li key={i} className="flex items-center text-[13px] text-slate-600">
+                        <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2 shrink-0"></span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
               <div className="mt-auto">
                 <Link href="/services/project-management" className="inline-flex items-center text-blue-700 font-bold text-[14px] hover:text-blue-900 transition-colors">
@@ -115,17 +123,24 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Service 2: Quality Assurance (Top Right) */}
+            {/* Service 2: Interior Fit-Out Solutions (Top Right) */}
             <div className="bg-white rounded-xl p-8 flex flex-col justify-center shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] lg:col-span-2 lg:row-span-1">
               <div className="flex gap-6 items-start">
                 <div className="h-14 w-14 bg-orange-50 rounded-full flex items-center justify-center shrink-0">
-                  <ShieldCheck className="w-7 h-7 text-[#ea580c]" strokeWidth={1.5} />
+                  <Paintbrush className="w-7 h-7 text-[#ea580c]" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-[#0f172a] mb-3">Quality Assurance</h3>
-                  <p className="text-[14px] text-slate-500 leading-[1.8]">
-                    Rigorous site inspections and materials testing to ensure strict compliance with architectural blueprints and industry safety regulations.
-                  </p>
+                  <h3 className="text-lg font-bold text-[#0f172a] mb-4">Interior Design & Execution</h3>
+                  <div>
+                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
+                      {["Residential interiors", "Office fit-outs", "Commercial interiors", "False ceiling & lighting", "Modular kitchens", "Flooring & wall finishes", "Furniture coordination", "Final quality inspection"].map((item, i) => (
+                        <li key={i} className="flex items-center text-[13px] text-slate-600">
+                          <span className="w-1.5 h-1.5 bg-orange-500 rounded-full mr-2 shrink-0"></span>
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -137,25 +152,37 @@ export default function Home() {
                   <ClipboardCheck className="w-7 h-7 text-blue-800" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-[#0f172a] mb-3">Home Handover Inspections</h3>
-                  <p className="text-[14px] text-slate-500 leading-[1.8]">
-                    Meticulous final phase snagging, defect resolution management, and residential property assessments guaranteeing seamless project delivery to stakeholders.
-                  </p>
+                  <h3 className="text-lg font-bold text-[#0f172a] mb-4">Home Handover Inspections</h3>
+                  <div>
+                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
+                      {["Structural defects", "Plumbing systems", "Electrical installations", "Doors & windows", "Flooring & wall finishes", "Waterproofing", "Paint quality", "Fixtures & fittings"].map((item, i) => (
+                        <li key={i} className="flex items-center text-[13px] text-slate-600">
+                          <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2 shrink-0"></span>
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Service 4: Interior Fit-Out Solutions (Full Width Bottom) */}
+            {/* Service 4: Quality Assurance (Full Width Bottom) */}
             <div className="bg-white rounded-xl p-8 flex flex-col md:flex-row items-center shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] lg:col-span-3 lg:row-span-1 justify-between gap-8 mt-2">
               <div className="flex flex-col md:flex-row gap-6 items-start md:items-center">
                 <div className="h-16 w-16 bg-orange-50 rounded-full flex items-center justify-center shrink-0">
-                  <Paintbrush className="w-8 h-8 text-[#ea580c]" strokeWidth={1.5} />
+                  <ShieldCheck className="w-8 h-8 text-[#ea580c]" strokeWidth={1.5} />
                 </div>
                 <div className="max-w-3xl">
-                  <h3 className="text-lg font-bold text-[#0f172a] mb-2">Interior Fit-Out Solutions</h3>
-                  <p className="text-[14px] text-slate-500 leading-[1.8]">
-                    Specialized oversight for high-end corporate and commercial interior installations. Coordinating diverse contractors to achieve precise design intent and functional workspace optimization.
-                  </p>
+                  <h3 className="text-lg font-bold text-[#0f172a] mb-4">Quality Assurance</h3>
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
+                    {["Site Quality Inspections", "Material Quality Verification", "Workmanship Assessment", "Compliance & Safety Checks"].map((item, i) => (
+                      <li key={i} className="flex items-center text-[13px] text-slate-600">
+                        <span className="w-1.5 h-1.5 bg-orange-500 rounded-full mr-2 shrink-0"></span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
               <div className="shrink-0 w-full md:w-auto mt-4 md:mt-0">

@@ -1,0 +1,117 @@
+<main className="flex-grow">
+
+<section className="bg-primary-container text-on-primary relative overflow-hidden py-stack-lg md:py-24">
+<div className="absolute inset-0 opacity-10 pointer-events-none" data-alt="Subtle blueprint and architectural lines background texture pattern in deep navy blue, conveying precision and structure for a corporate construction brand." style={{backgroundImage: 'url(\'https', }}></div>
+<div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 text-center">
+<h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg mb-stack-md text-on-primary">
+                    Commitment to Excellence
+                </h1>
+<p className="font-body-lg text-body-lg text-on-primary/90 max-w-2xl mx-auto mb-stack-lg">
+                    At Aira Construction Services, our foundation is built on rigorous adherence to global quality and safety standards. Our certifications are a testament to our unwavering dedication to project success and structural integrity.
+                </p>
+<div className="w-24 h-1 bg-secondary mx-auto"></div>
+</div>
+</section>
+
+<section className="py-stack-lg max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div className="flex items-center mb-stack-lg">
+<h2 className="font-headline-lg text-headline-lg text-primary mr-4">Core Certifications</h2>
+<div className="flex-grow border-b border-steel-gray/30"></div>
+</div>
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+
+<div className="bg-surface-container-lowest border border-surface-variant rounded-DEFAULT p-6 hover:shadow-lg transition-shadow duration-300 relative overflow-hidden group">
+<div className="absolute top-0 left-0 w-full h-1 bg-secondary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+<div className="flex items-center justify-center w-16 h-16 bg-primary-container text-on-primary rounded-full mb-6">
+<span className="material-symbols-outlined text-3xl" data-icon="verified">verified</span>
+</div>
+<h3 className="font-headline-md text-headline-md text-primary mb-2">ISO 9001:2015</h3>
+<p className="font-body-md text-body-md text-on-surface-variant mb-4">Quality Management System</p>
+<div className="font-label-sm text-label-sm text-steel-gray bg-surface px-3 py-1 inline-block rounded border border-surface-variant">Global Standard</div>
+</div>
+
+<div className="bg-surface-container-lowest border border-surface-variant rounded-DEFAULT p-6 hover:shadow-lg transition-shadow duration-300 relative overflow-hidden group">
+<div className="absolute top-0 left-0 w-full h-1 bg-secondary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+<div className="flex items-center justify-center w-16 h-16 bg-primary-container text-on-primary rounded-full mb-6">
+<span className="material-symbols-outlined text-3xl" data-icon="eco">eco</span>
+</div>
+<h3 className="font-headline-md text-headline-md text-primary mb-2">ISO 14001:2015</h3>
+<p className="font-body-md text-body-md text-on-surface-variant mb-4">Environmental Management</p>
+<div className="font-label-sm text-label-sm text-steel-gray bg-surface px-3 py-1 inline-block rounded border border-surface-variant">Sustainability</div>
+</div>
+
+<div className="bg-surface-container-lowest border border-surface-variant rounded-DEFAULT p-6 hover:shadow-lg transition-shadow duration-300 relative overflow-hidden group">
+<div className="absolute top-0 left-0 w-full h-1 bg-secondary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+<div className="flex items-center justify-center w-16 h-16 bg-primary-container text-on-primary rounded-full mb-6">
+<span className="material-symbols-outlined text-3xl" data-icon="health_and_safety">health_and_safety</span>
+</div>
+<h3 className="font-headline-md text-headline-md text-primary mb-2">ISO 45001:2018</h3>
+<p className="font-body-md text-body-md text-on-surface-variant mb-4">Occupational Health &amp; Safety</p>
+<div className="font-label-sm text-label-sm text-steel-gray bg-surface px-3 py-1 inline-block rounded border border-surface-variant">Zero Harm Target</div>
+</div>
+
+<div className="bg-surface-container-lowest border border-surface-variant rounded-DEFAULT p-6 hover:shadow-lg transition-shadow duration-300 relative overflow-hidden group">
+<div className="absolute top-0 left-0 w-full h-1 bg-secondary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+<div className="flex items-center justify-center w-16 h-16 bg-primary-container text-on-primary rounded-full mb-6">
+<span className="material-symbols-outlined text-3xl" data-icon="engineering">engineering</span>
+</div>
+<h3 className="font-headline-md text-headline-md text-primary mb-2">PMP Certified</h3>
+<p className="font-body-md text-body-md text-on-surface-variant mb-4">Project Management Professionals</p>
+<div className="font-label-sm text-label-sm text-steel-gray bg-surface px-3 py-1 inline-block rounded border border-surface-variant">Expert Oversight</div>
+</div>
+</div>
+</section>
+
+<section className="bg-surface py-stack-lg border-y border-steel-gray/20">
+<div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-stack-lg">
+
+<div>
+<h2 className="font-headline-md text-headline-md text-primary mb-stack-md flex items-center">
+<span className="material-symbols-outlined mr-2 text-secondary" data-icon="handshake">handshake</span>
+                        Professional Memberships
+                    </h2>
+<p className="font-body-md text-body-md text-on-surface-variant mb-stack-md">
+                        We actively participate in leading industry organizations to ensure our methodologies remain at the forefront of construction and project management innovation.
+                    </p>
+<div className="flex flex-wrap gap-6">
+<div className="w-32 h-32 bg-surface-container-lowest border border-surface-variant rounded flex items-center justify-center p-4">
+<img className="max-w-full max-h-full object-contain" data-alt="A clean, modern logo placeholder representing the Project Management Institute (PMI) membership badge, utilizing deep blue and bronze colors on a white background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7hAKWPPNykfqRvuMaTS1yBK0OPw52RS-zOlBacMtYqsdPyI_O1hbhi-jUnWVFBN1gkqQ3TmxntdDDm_TSW207hz_YRkLWi38SJDg20HkH5sc_HsFL2mkrKKRVgL2MxnYI-OdEm5AVzWeLi_guJo2WF32-VDO9_whXhIuXIarnaDVf9Xp_8VUy3SVp8bonRWIGQz2jOTiFuiybXZXXaTC25uMrozXbJJxt_3BI13PqxZskARAnvYF0"/>
+</div>
+<div className="w-32 h-32 bg-surface-container-lowest border border-surface-variant rounded flex items-center justify-center p-4">
+<img className="max-w-full max-h-full object-contain" data-alt="A clean, modern logo placeholder representing a National Construction Council membership badge, featuring structural motifs in deep blue and bronze on a white background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLyHBztkFeeHzaI6QiJuuTfSWDS6bUUSjANorjbO6Qmz3snbTk-ptZsyjIgN30Yg9-2B7Kw21YfuAjUHEL4i1D6RwpdF-uSep-w2rCqPQAEBnOjwPTDSEyxeIgNr2YfhibYu0pEOc6VhyRrRFnIYMwjFl5UCGDeYVFE_7XrvXJolUUZqxSQpYQxOoIqcIm7mfy11tTQ7eEIeut_eNZN0YPpDOyF8YVUfy-7aSM5ZvxSs92xsb2OEko"/>
+</div>
+</div>
+</div>
+
+<div>
+<h2 className="font-headline-md text-headline-md text-primary mb-stack-md flex items-center">
+<span className="material-symbols-outlined mr-2 text-secondary" data-icon="analytics">analytics</span>
+                        Performance Indicators
+                    </h2>
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-gutter">
+<div className="bg-primary text-on-primary p-6 rounded border-t-4 border-secondary">
+<div className="font-display-lg text-display-lg mb-2">98%</div>
+<div className="font-headline-md text-headline-md mb-2">On-Time Delivery</div>
+<p className="font-body-md text-body-md text-on-primary/80">Consistent track record of meeting critical path deadlines.</p>
+</div>
+<div className="bg-primary-fixed-dim text-primary p-6 rounded border-t-4 border-primary">
+<div className="font-display-lg text-display-lg mb-2">10+</div>
+<div className="font-headline-md text-headline-md mb-2">Years LTI Free</div>
+<p className="font-body-md text-body-md text-primary/80">Uncompromising commitment to zero Lost Time Incidents.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section className="py-24 text-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<h2 className="font-headline-lg text-headline-lg text-primary mb-stack-md">Ready to Build with Certainty?</h2>
+<p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-stack-lg">
+                Partner with a consultancy that prioritizes compliance, safety, and operational excellence at every project phase.
+            </p>
+<a className="inline-flex items-center justify-center bg-secondary text-on-secondary font-bold py-4 px-8 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300" href="#">
+                Work with a Certified Team
+                <span className="material-symbols-outlined ml-2" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</section>
+</main>

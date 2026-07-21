@@ -7,9 +7,9 @@ export default function Services() {
       {/* ponytail: solid industrial colors, heavy borders, bold caps */}
       <section className="bg-slate-900 text-white py-24 border-b-8 border-construction-orange">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6">Our Services</h1>
+          <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6">Flat Evaluation</h1>
           <p className="text-xl text-gray-300 font-medium max-w-2xl">
-            Comprehensive project management and construction consultancy solutions
+            Comprehensive flat evaluation and inspection solutions
           </p>
         </div>
       </section>
@@ -20,7 +20,7 @@ export default function Services() {
           <div className="space-y-12">
             {[
               {
-                title: "General Home Inspection",
+                title: "General Flat Evaluation",
                 image: "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?auto=format&fit=crop&q=80&w=800",
                 description:
                   "A comprehensive examination of the home's major systems and components, including structural elements, roof, exterior, plumbing, electrical, HVAC, and interior.",

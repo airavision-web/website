@@ -32,14 +32,14 @@ export default function ProjectsPage() {
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <div className="mb-stack-md border-b border-steel-gray/20 pb-4 flex justify-between items-end">
             <h2 className="font-headline-lg text-headline-lg text-primary">Industries Served</h2>
-            <span className="font-label-sm text-label-sm text-outline hidden md:block">03 CORE SECTORS</span>
+            <span className="font-label-sm text-label-sm text-outline hidden md:block">02 CORE SECTORS</span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter">
             
-            {/* Commercial & Residential */}
-            <div className="md:col-span-8 group relative bg-surface-container-lowest border border-surface-variant overflow-hidden flex flex-col min-h-[400px] hover:-translate-y-0.5 transition-transform duration-300">
+            {/* Commercial, Residential, Healthcare & Institutional */}
+            <div className="md:col-span-12 group relative bg-surface-container-lowest border border-surface-variant overflow-hidden flex flex-col min-h-[400px] hover:-translate-y-0.5 transition-transform duration-300">
               <div className="absolute top-0 left-0 w-full h-1 bg-blueprint-blue z-20"></div>
-              <div className="relative h-64 overflow-hidden w-full">
+              <div className="relative h-64 md:h-80 overflow-hidden w-full">
                 <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
                 <img className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out" alt="Commercial Skyscraper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu3IpBZ7oBPYy8mi2axQ0pAU3EWs57IOwk-36i6HSUWefo_F4XL0guOplhVjlq0GBGhYEEJ4f51H-uzuexLn4z2jNczWUAqqzxZu2hOBqIHHNgS0PoOvUJa2oqQE4zhiPc8VXLO0c91mm6o3DaYCT4pouMOGVPd-1TmvLWbkKn7qrV0gBtRYRo2s3Iu82EwEMznFjl2l_TMH0hERHhNZJy7ZofEc1F5lsU6x3NGulg6z_UfFjuvMYK" />
                 <div className="absolute bottom-4 right-4 bg-surface/90 backdrop-blur px-3 py-1 font-label-sm text-label-sm text-primary z-20 border border-surface-variant">
@@ -50,37 +50,13 @@ export default function ProjectsPage() {
                 <div>
                   <h3 className="font-headline-md text-headline-md text-primary mb-stack-sm flex items-center gap-3">
                     <Building2 className="text-blueprint-blue w-6 h-6" />
-                    Commercial &amp; Residential
+                    Commercial &amp; Institutional
                   </h3>
-                  <p className="text-on-surface-variant font-body-md text-body-md mb-stack-md">
-                    High-performance commercial centers and modern residential complexes engineered for functionality and tenant wellbeing. We focus on optimizing usable space, energy efficiency, and modern aesthetic standards.
+                  <p className="text-on-surface-variant font-body-md text-body-md mb-stack-md max-w-4xl">
+                    High-performance commercial centers and specialized institutional facilities engineered for functionality and wellbeing. We focus on optimizing usable space, energy efficiency, and meeting rigorous compliance for modern educational and institutional environments.
                   </p>
                 </div>
-                <Link href="/services/project-management" className="flex items-center text-construction-orange font-label-sm text-label-sm uppercase tracking-wider group-hover:text-secondary transition-colors cursor-pointer w-max">
-                  View Projects
-                  <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
-                </Link>
-              </div>
-            </div>
-
-            {/* Healthcare & Institutional */}
-            <div className="md:col-span-4 group relative bg-surface-container-lowest border border-surface-variant overflow-hidden flex flex-col min-h-[400px] hover:-translate-y-0.5 transition-transform duration-300">
-              <div className="absolute top-0 left-0 w-full h-1 bg-construction-orange z-20"></div>
-              <div className="relative h-48 overflow-hidden w-full">
-                <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
-                <img className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out" alt="Healthcare Facility" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAWYbEWZp5DbqsIdYK63ndSq4x3Z-bBd1DrRt08UfsnKB87iuYcEHDOlDAntNRNG8vutIBEHJc-OEVAFStPVSing0r2BAW0jtEUCjnKziExvmx13gGeH3oA05t9LCwpZXC70VxcBvzlCt3J7Kxm5OO3yqkyUintKlWUsh0HQF2bPdocLR45cBsS6RtCYfoX8tQ7XDST13ifGokngkk_VCjhhGf7jryKA0WTKyxqyll2jPsHMd2FXeK" />
-              </div>
-              <div className="p-gutter flex-grow flex flex-col justify-between">
-                <div>
-                  <h3 className="font-headline-md text-headline-md text-primary mb-stack-sm flex items-center gap-3">
-                    <ShieldPlus className="text-construction-orange w-6 h-6" />
-                    Healthcare &amp; Institutional
-                  </h3>
-                  <p className="text-on-surface-variant font-body-md text-body-md mb-stack-md">
-                    Specialized facilities requiring rigorous compliance, complex MEP integration, and environments designed for critical care and education.
-                  </p>
-                </div>
-                <Link href="/services/project-management" className="flex items-center text-blueprint-blue font-label-sm text-label-sm uppercase tracking-wider group-hover:text-primary transition-colors cursor-pointer w-max">
+                <Link href="/services/project-management" className="flex items-center text-construction-orange font-label-sm text-label-sm uppercase tracking-wider group-hover:text-secondary transition-colors cursor-pointer w-max mt-4">
                   View Projects
                   <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                 </Link>

@@ -49,7 +49,7 @@ export default function Footer() {
                 <Link href="/services/project-management" className="hover:text-white transition">Project Management Consultancy</Link>
               </li>
               <li>
-                <Link href="/services/home-inspection" className="hover:text-white transition">Home Inspection</Link>
+                <Link href="/services/home-inspection" className="hover:text-white transition">Flat Evaluation</Link>
               </li>
             </ul>
           </div>
