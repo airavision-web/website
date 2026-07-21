@@ -1,0 +1,66 @@
+<main className="flex-grow">
+
+<section className="relative h-[600px] flex items-center justify-center bg-primary">
+<div className="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-overlay" data-alt="A breathtaking, ultra-high-resolution photograph of a luxurious modern corporate interior lobby. The space features soaring double-height ceilings, sleek architectural lines, and expansive floor-to-ceiling windows letting in soft, natural daylight. The color palette is dominated by sophisticated deep navy blues, crisp whites, and warm bronze metallic accents. The materials look rich and tactile, conveying a sense of authoritative luxury and precise engineering, typical of a high-end commercial design firm." style={{backgroundImage: 'url(\'https', }}></div>
+<div className="relative z-10 text-center px-margin-mobile md:px-margin-desktop max-w-4xl mx-auto">
+<h1 className="font-display-lg text-display-lg text-on-primary mb-6">Interior Designing Services</h1>
+<p className="font-body-lg text-body-lg text-primary-fixed mb-8 max-w-2xl mx-auto">Transforming Spaces with Purpose, Precision, and Style</p>
+<button className="bg-construction-orange hover:bg-secondary text-on-primary font-label-sm text-label-sm px-8 py-3 rounded uppercase tracking-wider transition-colors">
+                    Explore Our Designs
+                </button>
+</div>
+</section>
+
+<section className="py-stack-lg px-margin-mobile md:px-margin-desktop bg-surface max-w-container-max mx-auto">
+<div className="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div className="col-span-1 md:col-span-6">
+<h2 className="font-headline-lg text-headline-lg text-primary mb-4">Crafting Exceptional Environments</h2>
+<div className="w-16 h-0.5 bg-construction-orange mb-6"></div>
+<p className="font-body-md text-body-md text-on-surface-variant mb-4">
+                        At Aira Vision, we believe that an interior should be a perfect reflection of its inhabitants, harmonizing aesthetic beauty with uncompromised functional utility. We approach interior design with the precision of structural engineers and the creativity of fine artists.
+                    </p>
+<p className="font-body-md text-body-md text-on-surface-variant">
+                        Our dedicated team of professional designers ensures that every element, from spatial planning to the final textural finishes, is executed with absolute quality craftsmanship. We transform ordinary spaces into purposeful environments that inspire and endure.
+                    </p>
+</div>
+<div className="col-span-1 md:col-span-6">
+<img className="w-full h-auto rounded-lg shadow-sm border border-surface-variant object-cover aspect-video" data-alt="A detailed, realistic photograph showing an interior designer's workspace. A large wooden drafting table is scattered with architectural blueprints, material swatches including navy blue fabrics and bronze metal finishes, and a sleek tablet displaying a 3D room rendering. The lighting is bright and focused, highlighting the precise nature of the design work. The overall mood is professional, creative, and highly organized." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnFZ2857ghgWbpNwXN2KJqXj_U6ZNIulDRpRccxiwDGcyXNfDyw_ASGNQdyUtbDBvm7aN-aSmssh8n5PhIt--uKkgN5OV7CUm3SYv9y4-aYsPr_xxmaGVHpeS56RPPJVt-sQYagRrz3-dgbL44wTylop5EU4yCGZhi7AcMzeBofEKiZeyqkROKjg4TUsgps1yfZRDAiXf61iSyvk61t-8KcGN8Yql2-hfu-VmXMhB9HxqCzxUCmWwK"/>
+</div>
+</div>
+</section>
+
+<section className="py-stack-lg bg-surface-container-low border-y border-surface-variant">
+<div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div className="text-center mb-stack-md">
+<h2 className="font-headline-lg text-headline-lg text-primary mb-2">Interior Design Solutions We Offer</h2>
+<p className="font-body-md text-body-md text-on-surface-variant">Comprehensive design expertise across all structural domains.</p>
+</div>
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+
+<div className="bg-surface p-6 rounded border border-surface-variant hover:-translate-y-1 transition-transform duration-300">
+<div className="w-12 h-12 bg-primary-container text-on-primary-container rounded flex items-center justify-center mb-4">
+<span className="material-symbols-outlined">home</span>
+</div>
+<h3 className="font-headline-md text-headline-md text-primary mb-2">Residential</h3>
+<p className="font-body-md text-body-md text-on-surface-variant">Bespoke home interiors that reflect your lifestyle, ensuring comfort and elegance in every room.</p>
+</div>
+
+<div className="bg-surface p-6 rounded border border-surface-variant hover:-translate-y-1 transition-transform duration-300 border-t-4 border-t-construction-orange">
+<div className="w-12 h-12 bg-primary-container text-on-primary-container rounded flex items-center justify-center mb-4">
+<span className="material-symbols-outlined">domain</span>
+</div>
+<h3 className="font-headline-md text-headline-md text-primary mb-2">Commercial</h3>
+<p className="font-body-md text-body-md text-on-surface-variant">High-performance workspaces designed to enhance productivity and impress enterprise clients.</p>
+</div>
+
+<div className="bg-surface p-6 rounded border border-surface-variant hover:-translate-y-1 transition-transform duration-300">
+<div className="w-12 h-12 bg-primary-container text-on-primary-container rounded flex items-center justify-center mb-4">
+<span className="material-symbols-outlined">kitchen</span>
+</div>
+<h3 className="font-headline-md text-headline-md text-primary mb-2">Modular Kitchens</h3>
+<p className="font-body-md text-body-md text-on-surface-variant">Ergonomically engineered culinary spaces maximizing storage efficiency and modern aesthetics.</p>
+</div>
+</div>
+</div>
+</section>
+</main>

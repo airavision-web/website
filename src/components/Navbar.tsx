@@ -34,6 +34,9 @@ export default function Navbar() {
               <Link href="/services/home-inspection" className="block px-4 py-2 text-sm font-medium text-slate-800 hover:bg-slate-50 hover:text-construction-orange transition-colors border-t border-steel-gray/10">
                 Home Inspection
               </Link>
+              <Link href="/services/interior-designing" className="block px-4 py-2 text-sm font-medium text-slate-800 hover:bg-slate-50 hover:text-construction-orange transition-colors border-t border-steel-gray/10">
+                Interior Designing
+              </Link>
             </div>
           </div>
 
@@ -69,6 +72,7 @@ export default function Navbar() {
             <Link href="/about" className="text-slate-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>About</Link>
             <Link href="/services/project-management" className="text-slate-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Project Management</Link>
             <Link href="/services/home-inspection" className="text-slate-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Home Inspection</Link>
+            <Link href="/services/interior-designing" className="text-slate-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Interior Designing</Link>
             <Link href="/projects" className="text-slate-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Projects</Link>
             <Link href="/gallery" className="text-slate-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Gallery</Link>
             <Link href="/blog" className="text-slate-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Blog</Link>
