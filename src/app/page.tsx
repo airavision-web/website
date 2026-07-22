@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full min-h-[80vh] flex flex-col justify-center overflow-hidden border-b border-gray-200">
+      <section className="relative w-full h-[600px] md:h-[650px] lg:h-[700px] flex flex-col justify-center overflow-hidden border-b border-gray-200">
         
         {/* Full-width background image */}
         <div 
-          className="absolute inset-0 z-0 bg-cover bg-[50%_25%]"
+          className="absolute inset-0 z-0 bg-cover bg-[50%_35%]"
           style={{ backgroundImage: "url('/assets/construction_site.webp')" }}
         ></div>
 
