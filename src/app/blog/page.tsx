@@ -12,7 +12,7 @@ export default function BlogPage() {
         </p>
       </div>
       <div className="max-w-container-max mx-auto px-margin-desktop py-stack-lg">
-        <p className="text-body-lg text-primary">Blog posts list goes here...</p>
+        <p className="text-body-lg text-blue-900">Blog posts list goes here...</p>
       </div>
     </div>
   );

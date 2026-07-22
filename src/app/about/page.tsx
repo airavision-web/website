@@ -10,12 +10,12 @@ export default function AboutPage() {
       <section className="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-stack-lg items-center">
         <div className="md:col-span-6 space-y-stack-md">
           <div>
-            <h1 className="font-display-lg text-display-lg md:text-display-lg font-bold text-primary mb-2">
+            <h1 className="font-display-lg text-display-lg md:text-display-lg font-bold text-blue-900 mb-2">
               Building Trust Through Structural Integrity.
             </h1>
             <div className="w-16 h-1 bg-blueprint-blue"></div>
           </div>
-          <p className="font-body-lg text-body-lg text-primary max-w-lg">
+          <p className="font-body-lg text-body-lg text-blue-900 max-w-lg">
             At AIRA, we verify that every aspect of your project is executed with the right quality, approved specifications, and timely completion.
           </p>
         </div>
@@ -33,7 +33,7 @@ export default function AboutPage() {
       {/* Mission & Vision Bento Grid */}
       <section className="mb-stack-lg">
         <div className="mb-stack-md">
-          <h2 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary">
+          <h2 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-blue-900">
             Core Purpose
           </h2>
           <div className="border-b border-outline-variant/30 mt-stack-md mb-stack-lg"></div>
@@ -45,9 +45,9 @@ export default function AboutPage() {
               <div className="w-12 h-12 rounded bg-blueprint-blue/10 flex items-center justify-center flex-shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blueprint-blue"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></svg>
               </div>
-              <h3 className="font-headline-md text-headline-md text-primary">Our Mission</h3>
+              <h3 className="font-headline-md text-headline-md text-blue-900">Our Mission</h3>
             </div>
-            <p className="font-body-md text-body-md text-primary flex-grow">
+            <p className="font-body-md text-body-md text-blue-900 flex-grow">
               Our mission is to bring transparency, quality, and accountability to every construction project by providing independent inspections, accurate quantity verification, and expert technical guidance, ensuring every promise made is delivered with confidence.
             </p>
           </div>
@@ -57,9 +57,9 @@ export default function AboutPage() {
               <div className="w-12 h-12 rounded bg-construction-orange/10 flex items-center justify-center flex-shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-construction-orange"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" /></svg>
               </div>
-              <h3 className="font-headline-md text-headline-md text-primary">Our Vision</h3>
+              <h3 className="font-headline-md text-headline-md text-blue-900">Our Vision</h3>
             </div>
-            <p className="font-body-md text-body-md text-primary flex-grow">
+            <p className="font-body-md text-body-md text-blue-900 flex-grow">
               To become the most trusted construction quality partner by delivering reliable inspections, technical expertise, and unbiased verification that help build safer and better structures.
             </p>
           </div>
@@ -69,7 +69,7 @@ export default function AboutPage() {
       {/* Commitments Section */}
       <section className="mb-stack-lg">
         <div className="mb-stack-md">
-          <h2 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary">
+          <h2 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-blue-900">
             Our Commitments
           </h2>
           <div className="border-b border-outline-variant/30 mt-stack-md mb-stack-lg"></div>
@@ -80,8 +80,8 @@ export default function AboutPage() {
             <div className="h-32 rounded mb-4 overflow-hidden bg-emerald-50/50 p-6 flex items-center justify-center border border-emerald-100">
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600"><circle cx="12" cy="8" r="7" /><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" /></svg>
             </div>
-            <h4 className="font-headline-md text-[20px] leading-tight text-primary mb-2 font-normal"><strong className="font-black">A</strong>ccuracy</h4>
-            <p className="font-body-md text-sm text-primary">
+            <h4 className="font-headline-md text-[20px] leading-tight text-blue-900 mb-2 font-normal"><strong className="font-black">A</strong>ccuracy</h4>
+            <p className="font-body-md text-sm text-blue-900">
               Rigorous QA processes and uncompromising standards ensure every phase of construction meets exacting specifications.
             </p>
           </div>
@@ -90,8 +90,8 @@ export default function AboutPage() {
             <div className="h-32 rounded mb-4 overflow-hidden bg-blue-50/50 p-6 flex items-center justify-center border border-blue-100">
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-blueprint-blue"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1.3.5 2.6 1.5 3.5.8.8 1.3 1.5 1.5 2.5" /><path d="M9 18h6" /><path d="M10 22h4" /></svg>
             </div>
-            <h4 className="font-headline-md text-[20px] leading-tight text-primary mb-2 font-normal"><strong className="font-black">I</strong>ntegrity</h4>
-            <p className="font-body-md text-sm text-primary">
+            <h4 className="font-headline-md text-[20px] leading-tight text-blue-900 mb-2 font-normal"><strong className="font-black">I</strong>ntegrity</h4>
+            <p className="font-body-md text-sm text-blue-900">
               Leveraging modern technology, BIM, and advanced analytics to optimize workflows and predict structural outcomes.
             </p>
           </div>
@@ -100,8 +100,8 @@ export default function AboutPage() {
             <div className="h-32 rounded mb-4 overflow-hidden bg-teal-50/50 p-6 flex items-center justify-center border border-teal-100">
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-teal-600"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" /><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" /></svg>
             </div>
-            <h4 className="font-headline-md text-[20px] leading-tight text-primary mb-2 font-normal"><strong className="font-black">R</strong>eliability</h4>
-            <p className="font-body-md text-sm text-primary">
+            <h4 className="font-headline-md text-[20px] leading-tight text-blue-900 mb-2 font-normal"><strong className="font-black">R</strong>eliability</h4>
+            <p className="font-body-md text-sm text-blue-900">
               Dedicated to responsible development practices that minimize environmental impact and maximize long-term asset value.
             </p>
           </div>
@@ -110,8 +110,8 @@ export default function AboutPage() {
             <div className="h-32 rounded mb-4 overflow-hidden bg-orange-50/50 p-6 flex items-center justify-center border border-orange-100">
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-construction-orange"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
             </div>
-            <h4 className="font-headline-md text-[20px] leading-tight text-primary mb-2 font-normal"><strong className="font-black">A</strong>ssurance</h4>
-            <p className="font-body-md text-sm text-primary">
+            <h4 className="font-headline-md text-[20px] leading-tight text-blue-900 mb-2 font-normal"><strong className="font-black">A</strong>ssurance</h4>
+            <p className="font-body-md text-sm text-blue-900">
               Fostering open communication and ethical practices with all stakeholders to build enduring professional trust.
             </p>
           </div>
@@ -121,7 +121,7 @@ export default function AboutPage() {
       {/* Meet the Visionaries Section */}
       <section className="mb-stack-lg">
         <div className="mb-stack-md">
-          <h2 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary">
+          <h2 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-blue-900">
             Meet the Visionaries
           </h2>
           <div className="border-b border-outline-variant/30 mt-stack-md mb-stack-lg"></div>
@@ -131,32 +131,32 @@ export default function AboutPage() {
           <div className="bg-white border border-[#E2E8F0] rounded overflow-hidden hover:-translate-y-[2px] transition-transform duration-300">
             <img src="/assets/Shiva.webp" alt="Shiva - Founder & CEO" className="w-full aspect-[4/5] object-cover object-top" />
             <div className="p-stack-sm text-center border-t border-[#E2E8F0]">
-              <h4 className="font-headline-md text-lg font-bold text-primary mb-1">Shiva</h4>
-              <p className="font-body-sm text-primary text-sm">Founder & CEO</p>
+              <h4 className="font-headline-md text-lg font-bold text-blue-900 mb-1">Shiva</h4>
+              <p className="font-body-sm text-blue-900 text-sm">Founder & CEO</p>
             </div>
           </div>
           {/* Manoj */}
           <div className="bg-white border border-[#E2E8F0] rounded overflow-hidden hover:-translate-y-[2px] transition-transform duration-300">
             <img src="/assets/Manoj.webp" alt="Manoj - Co-Founder & COO" className="w-full aspect-[4/5] object-cover object-top" />
             <div className="p-stack-sm text-center border-t border-[#E2E8F0]">
-              <h4 className="font-headline-md text-lg font-bold text-primary mb-1">Manoj</h4>
-              <p className="font-body-sm text-primary text-sm">Co-Founder & COO</p>
+              <h4 className="font-headline-md text-lg font-bold text-blue-900 mb-1">Manoj</h4>
+              <p className="font-body-sm text-blue-900 text-sm">Co-Founder & COO</p>
             </div>
           </div>
           {/* Vikas Manda */}
           <div className="bg-white border border-[#E2E8F0] rounded overflow-hidden hover:-translate-y-[2px] transition-transform duration-300">
             <img src="/assets/vikas_manda.webp" alt="Vikas Manda - Director, Technical Services" className="w-full aspect-[4/5] object-cover object-top" />
             <div className="p-stack-sm text-center border-t border-[#E2E8F0]">
-              <h4 className="font-headline-md text-lg font-bold text-primary mb-1">Vikas Manda</h4>
-              <p className="font-body-sm text-primary text-sm capitalize">Director, Technical Services</p>
+              <h4 className="font-headline-md text-lg font-bold text-blue-900 mb-1">Vikas Manda</h4>
+              <p className="font-body-sm text-blue-900 text-sm capitalize">Director, Technical Services</p>
             </div>
           </div>
           {/* Venkata Krishna Paramkusham */}
           <div className="bg-white border border-[#E2E8F0] rounded overflow-hidden hover:-translate-y-[2px] transition-transform duration-300">
             <img src="/assets/Venkata_krishna.webp" alt="Venkata Krishna Paramkusham - Director, Business Operations & Finance" className="w-full aspect-[4/5] object-cover object-top" />
             <div className="p-stack-sm text-center border-t border-[#E2E8F0]">
-              <h4 className="font-headline-md text-[17px] font-bold text-primary mb-1">Venkata Krishna Paramkusham</h4>
-              <p className="font-body-sm text-primary text-sm capitalize">Director, Business Operations &amp; Finance</p>
+              <h4 className="font-headline-md text-[17px] font-bold text-blue-900 mb-1">Venkata Krishna Paramkusham</h4>
+              <p className="font-body-sm text-blue-900 text-sm capitalize">Director, Business Operations &amp; Finance</p>
             </div>
           </div>
         </div>

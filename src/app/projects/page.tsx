@@ -19,8 +19,8 @@ export default function ProjectsPage() {
               <span className="w-8 h-px bg-construction-orange"></span>
               Our Expertise
             </p>
-            <h1 className="font-display-lg text-[40px] md:text-display-lg font-bold text-primary mb-stack-md leading-tight">Sectors &amp; Portfolio</h1>
-            <p className="font-body-lg text-body-lg text-primary max-w-2xl">
+            <h1 className="font-display-lg text-[40px] md:text-display-lg font-bold text-blue-900 mb-stack-md leading-tight">Sectors &amp; Portfolio</h1>
+            <p className="font-body-lg text-body-lg text-blue-900 max-w-2xl">
               Delivering structural integrity and operational excellence across diverse built environments. Our portfolio reflects a commitment to precision, scalable infrastructure, and enduring architectural quality.
             </p>
           </div>
@@ -31,7 +31,7 @@ export default function ProjectsPage() {
       <section className="py-stack-lg bg-background">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <div className="mb-stack-md border-b border-steel-gray/20 pb-4 flex justify-between items-end">
-            <h2 className="font-headline-lg text-headline-lg text-primary">Industries Served</h2>
+            <h2 className="font-headline-lg text-headline-lg text-blue-900">Industries Served</h2>
             <span className="font-label-sm text-label-sm text-outline hidden md:block">02 CORE SECTORS</span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter">
@@ -42,17 +42,17 @@ export default function ProjectsPage() {
               <div className="relative h-64 md:h-80 overflow-hidden w-full">
                 <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
                 <img className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out" alt="Commercial Skyscraper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu3IpBZ7oBPYy8mi2axQ0pAU3EWs57IOwk-36i6HSUWefo_F4XL0guOplhVjlq0GBGhYEEJ4f51H-uzuexLn4z2jNczWUAqqzxZu2hOBqIHHNgS0PoOvUJa2oqQE4zhiPc8VXLO0c91mm6o3DaYCT4pouMOGVPd-1TmvLWbkKn7qrV0gBtRYRo2s3Iu82EwEMznFjl2l_TMH0hERHhNZJy7ZofEc1F5lsU6x3NGulg6z_UfFjuvMYK" />
-                <div className="absolute bottom-4 right-4 bg-surface/90 backdrop-blur px-3 py-1 font-label-sm text-label-sm text-primary z-20 border border-surface-variant">
+                <div className="absolute bottom-4 right-4 bg-surface/90 backdrop-blur px-3 py-1 font-label-sm text-label-sm text-blue-900 z-20 border border-surface-variant">
                   REF: COM-2024
                 </div>
               </div>
               <div className="p-gutter flex-grow flex flex-col justify-between">
                 <div>
-                  <h3 className="font-headline-md text-headline-md text-primary mb-stack-sm flex items-center gap-3">
+                  <h3 className="font-headline-md text-headline-md text-blue-900 mb-stack-sm flex items-center gap-3">
                     <Building2 className="text-blueprint-blue w-6 h-6" />
                     Commercial &amp; Institutional
                   </h3>
-                  <p className="text-primary font-body-md text-body-md mb-stack-md max-w-4xl">
+                  <p className="text-blue-900 font-body-md text-body-md mb-stack-md max-w-4xl">
                     High-performance commercial centers and specialized institutional facilities engineered for functionality and wellbeing. We focus on optimizing usable space, energy efficiency, and meeting rigorous compliance for modern educational and institutional environments.
                   </p>
                 </div>

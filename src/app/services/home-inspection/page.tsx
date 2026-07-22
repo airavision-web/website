@@ -8,7 +8,7 @@ export default function Services() {
       <section className="bg-slate-900 text-white py-24 border-b-8 border-construction-orange">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6">Flat Evaluation</h1>
-          <p className="text-xl text-primary font-medium max-w-2xl">
+          <p className="text-xl text-blue-900 font-medium max-w-2xl">
             Comprehensive flat evaluation and inspection solutions
           </p>
         </div>
@@ -76,13 +76,13 @@ export default function Services() {
               <div key={index} className="border-b border-steel-gray/20 pb-12 last:border-b-0">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                   <div className={index % 2 !== 0 ? 'md:order-2' : ''}>
-                    <h3 className="text-3xl font-bold text-primary mb-4">{service.title}</h3>
-                    <p className="text-lg text-primary mb-6 leading-relaxed">{service.description}</p>
+                    <h3 className="text-3xl font-bold text-blue-900 mb-4">{service.title}</h3>
+                    <p className="text-lg text-blue-900 mb-6 leading-relaxed">{service.description}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       {service.includes.map((item, idx) => (
                         <div key={idx} className="flex items-start space-x-3">
                           <CheckCircle className="w-6 h-6 text-construction-orange shrink-0" />
-                          <span className="text-primary font-medium">{item}</span>
+                          <span className="text-blue-900 font-medium">{item}</span>
                         </div>
                       ))}
                     </div>
@@ -100,7 +100,7 @@ export default function Services() {
       {/* Additional Services */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-primary mb-12 text-center">
+          <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">
             Specialized Services
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -142,8 +142,8 @@ export default function Services() {
                   <img src={service.image} alt={service.title} className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500" />
                 </div>
                 <div className="p-6 flex-grow">
-                  <h3 className="font-headline-md text-xl font-semibold text-primary mb-3">{service.title}</h3>
-                  <p className="font-body-md text-primary leading-relaxed">{service.description}</p>
+                  <h3 className="font-headline-md text-xl font-semibold text-blue-900 mb-3">{service.title}</h3>
+                  <p className="font-body-md text-blue-900 leading-relaxed">{service.description}</p>
                 </div>
               </div>
             ))}
@@ -154,7 +154,7 @@ export default function Services() {
       {/* Process Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-primary mb-12 text-center">Our Process</h2>
+          <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">Our Process</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
               {
@@ -182,8 +182,8 @@ export default function Services() {
                 <div className="w-16 h-16 bg-construction-orange text-white border-4 border-slate-900 rounded-none flex items-center justify-center text-2xl font-black mx-auto mb-4 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)]">
                   {item.step}
                 </div>
-                <h3 className="text-lg font-semibold text-primary mb-2">{item.title}</h3>
-                <p className="text-primary">{item.description}</p>
+                <h3 className="text-lg font-semibold text-blue-900 mb-2">{item.title}</h3>
+                <p className="text-blue-900">{item.description}</p>
               </div>
             ))}
           </div>

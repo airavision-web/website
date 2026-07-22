@@ -81,41 +81,45 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Contact Details */}
             <div>
-              <h2 className="text-3xl font-bold text-primary mb-8">Get in Touch</h2>
+              <h2 className="text-3xl font-bold text-blue-900 mb-8">Get in Touch</h2>
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Phone className="w-6 h-6 text-orange-600 mt-1" />
                   <div>
-                    <h3 className="text-lg font-semibold text-primary">Phone</h3>
-                    <p className="text-primary">+91 9550234556</p>
-                    <p className="text-primary">+91 7671010806</p>
+                    <h3 className="text-lg font-semibold text-blue-900">Phone</h3>
+                    <p className="text-blue-900">+91 9550234556</p>
+                    <p className="text-blue-900">+91 7671010806</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
                   <Mail className="w-6 h-6 text-orange-600 mt-1" />
                   <div>
-                    <h3 className="text-lg font-semibold text-primary">Email</h3>
-                    <p className="text-primary">airavision.av@gmail.com</p>
+                    <h3 className="text-lg font-semibold text-blue-900">Email</h3>
+                    <p className="text-blue-900">airavision.av@gmail.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
                   <MapPin className="w-6 h-6 text-orange-600 mt-1" />
                   <div>
-                    <h3 className="text-lg font-semibold text-primary">Address</h3>
-                    <p className="text-primary">2nd floor, Vaibhava lakshmi Nilayam-2, plot# 608, Aparna Hillpark Rd, PJR Layout, Chanda Nagar, Hyderabad, Telangana 500050</p>
+                    <h3 className="text-lg font-semibold text-blue-900">Address</h3>
+                    <p className="text-blue-900">
+                      Plot No: 608, Vaibhava Lakshmi Nilayam-2,<br />
+                      Aparna Hill Park Road, Chandanagar,<br />
+                      Hyderabad, Telangana, India-500050
+                    </p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
                   <Clock className="w-6 h-6 text-orange-600 mt-1" />
                   <div>
-                    <h3 className="text-lg font-semibold text-primary">Hours</h3>
-                    <p className="text-primary">Monday - Friday: 8AM - 6PM</p>
-                    <p className="text-primary">Saturday: 9AM - 4PM</p>
-                    <p className="text-primary">Sunday: Closed</p>
+                    <h3 className="text-lg font-semibold text-blue-900">Hours</h3>
+                    <p className="text-blue-900">Monday - Friday: 8AM - 6PM</p>
+                    <p className="text-blue-900">Saturday: 9AM - 4PM</p>
+                    <p className="text-blue-900">Sunday: Closed</p>
                   </div>
                 </div>
               </div>
@@ -125,7 +129,7 @@ export default function Contact() {
             <div>
               <form onSubmit={handleSubmit} className="bg-gray-50 p-8 rounded-lg">
                 <div className="mb-6">
-                  <label className="block text-primary font-semibold mb-2">Name</label>
+                  <label className="block text-blue-900 font-semibold mb-2">Name</label>
                   <input
                     type="text"
                     name="name"
@@ -138,7 +142,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mb-6">
-                  <label className="block text-primary font-semibold mb-2">Email</label>
+                  <label className="block text-blue-900 font-semibold mb-2">Email</label>
                   <input
                     type="email"
                     name="email"
@@ -151,7 +155,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mb-6">
-                  <label className="block text-primary font-semibold mb-2">Phone</label>
+                  <label className="block text-blue-900 font-semibold mb-2">Phone</label>
                   <input
                     type="tel"
                     name="phone"
@@ -164,7 +168,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mb-6">
-                  <label className="block text-primary font-semibold mb-2">Property Type</label>
+                  <label className="block text-blue-900 font-semibold mb-2">Property Type</label>
                   <select
                     name="property"
                     value={formData.property}
@@ -180,7 +184,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mb-6">
-                  <label className="block text-primary font-semibold mb-2">Message</label>
+                  <label className="block text-blue-900 font-semibold mb-2">Message</label>
                   <textarea
                     name="message"
                     value={formData.message}
@@ -206,7 +210,7 @@ export default function Contact() {
       {/* Map Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-primary mb-8 text-center">Our Location</h2>
+          <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">Our Location</h2>
           <div className="w-full h-96 bg-gray-200">
             <iframe
               title="Aira Vision Location"

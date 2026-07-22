@@ -8,33 +8,33 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-10 mb-8">
           {/* Company Info */}
           <div className="flex flex-col">
-            <span className="font-headline-md text-headline-md font-bold text-white mb-6">Aira Vision</span>
-            <p className="font-body-md text-body-md text-white leading-relaxed">
+            <span className="text-xl font-bold text-white mb-6">Aira Vision</span>
+            <p className="text-base text-white/80 leading-relaxed">
               Professional construction consulting and project management firm delivering quality, transparency, and excellence.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-headline-md text-lg font-semibold text-white mb-6">Quick Links</h4>
-            <ul className="space-y-4 font-body-md">
+            <h4 className="text-lg font-semibold text-white mb-6">Quick Links</h4>
+            <ul className="space-y-4 text-base">
               <li>
-                <Link href="/" className="text-white hover:text-white transition">
+                <Link href="/" className="text-white/80 hover:text-white transition">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-white hover:text-white transition">
+                <Link href="/about" className="text-white/80 hover:text-white transition">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="text-white hover:text-white transition">
+                <Link href="/projects" className="text-white/80 hover:text-white transition">
                   Projects & Portfolio
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-white hover:text-white transition">
+                <Link href="/blog" className="text-white/80 hover:text-white transition">
                   Blog
                 </Link>
               </li>
@@ -43,8 +43,8 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-headline-md text-lg font-semibold text-white mb-6">Services</h4>
-            <ul className="space-y-4 font-body-md text-white">
+            <h4 className="text-lg font-semibold text-white mb-6">Services</h4>
+            <ul className="space-y-4 text-base text-white/80">
               <li>
                 <Link href="/services/project-management" className="hover:text-white transition">Project Management Consultancy</Link>
               </li>
@@ -56,37 +56,41 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-headline-md text-lg font-semibold text-white mb-6">Contact Us</h4>
-            <div className="space-y-5 font-body-md">
-              <div className="flex items-center space-x-2 text-white">
+            <h4 className="text-lg font-semibold text-white mb-6">Contact Us</h4>
+            <div className="space-y-5 text-base">
+              <div className="flex items-center space-x-2 text-white/80">
                 <Phone size={18} className="text-construction-orange shrink-0" />
                 <div>
                   <span>+91 9550234556</span><br />
                   <span>+91 7671010806</span>
                 </div>
               </div>
-              <div className="flex items-center space-x-2 text-white">
+              <div className="flex items-center space-x-2 text-white/80">
                 <Mail size={18} className="text-construction-orange shrink-0" />
                 <a href="mailto:airavision.av@gmail.com" className="hover:text-white transition">airavision.av@gmail.com</a>
               </div>
-              <div className="flex items-start space-x-2 text-white">
+              <div className="flex items-start space-x-2 text-white/80">
                 <MapPin size={18} className="mt-1 text-construction-orange shrink-0" />
-                <span className="leading-tight">2nd floor, Vaibhava lakshmi Nilayam-2, plot# 608, Aparna Hillpark Rd, PJR Layout, Chanda Nagar, Hyderabad, Telangana 500050</span>
+                <span className="leading-tight">
+                  Plot No: 608, Vaibhava Lakshmi Nilayam-2,<br />
+                  Aparna Hill Park Road, Chandanagar,<br />
+                  Hyderabad, Telangana, India-500050
+                </span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-steel-gray/30 pt-6 mt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center font-body-md">
-            <p className="text-white font-label-sm text-label-sm">
+          <div className="flex flex-col md:flex-row justify-between items-center text-base">
+            <p className="text-white/80 text-sm">
               &copy; {new Date().getFullYear()} Aira Vision. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="/privacy" className="text-white hover:text-white transition">
+              <Link href="/privacy" className="text-white/80 hover:text-white transition">
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="text-white hover:text-white transition">
+              <Link href="/terms" className="text-white/80 hover:text-white transition">
                 Terms & Conditions
               </Link>
             </div>

@@ -16,10 +16,10 @@ export default function ProjectManagementPage() {
               <span className="w-8 h-[1px] bg-construction-orange inline-block"></span>
               Our Expertise
             </p>
-            <h1 className="font-headline-lg-mobile text-headline-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-stack-md">
+            <h1 className="font-headline-lg-mobile text-headline-lg-mobile md:font-display-lg md:text-display-lg text-blue-900 mb-stack-md">
               Comprehensive Project Management Services
             </h1>
-            <p className="font-body-lg text-body-lg text-primary">
+            <p className="font-body-lg text-body-lg text-blue-900">
               We deliver structured, end-to-end oversight ensuring architectural intent translates perfectly into structural reality. Our methodology is rooted in precision, reliability, and rigorous data analysis across all project phases.
             </p>
           </div>
@@ -37,10 +37,10 @@ export default function ProjectManagementPage() {
                 <div className="w-12 h-12 bg-primary text-on-primary flex items-center justify-center rounded-sm font-headline-md font-bold">
                   01
                 </div>
-                <h2 className="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary">Pre-Construction</h2>
+                <h2 className="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-blue-900">Pre-Construction</h2>
               </div>
               <div className="h-[1px] w-full bg-steel-gray/30 mb-stack-md"></div>
-              <p className="font-body-md text-body-md text-primary mb-stack-md">
+              <p className="font-body-md text-body-md text-blue-900 mb-stack-md">
                 Establishing the foundation for success before breaking ground. We conduct rigorous analysis, planning, and design management to mitigate risks and define clear operational blueprints.
               </p>
             </div>
@@ -49,11 +49,11 @@ export default function ProjectManagementPage() {
                 <div className="h-48 w-full mb-6 rounded overflow-hidden shadow-sm">
                   <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=400" alt="Architecture & Design" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
-                <h3 className="font-headline-md text-headline-md text-primary mb-stack-sm">Design Management</h3>
-                <p className="font-body-md text-body-md text-primary mb-stack-md">
+                <h3 className="font-headline-md text-headline-md text-blue-900 mb-stack-sm">Design Management</h3>
+                <p className="font-body-md text-body-md text-blue-900 mb-stack-md">
                   Coordinating architectural, structural, and MEP designs to ensure clash-free documentation and alignment with project objectives.
                 </p>
-                <ul className="space-y-2 font-body-md text-body-md text-primary">
+                <ul className="space-y-2 font-body-md text-body-md text-blue-900">
                   <li className="flex items-start gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-secondary shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5" /></svg> Schematic Design Review</li>
                   <li className="flex items-start gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-secondary shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5" /></svg> Value Engineering</li>
                   <li className="flex items-start gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-secondary shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5" /></svg> Constructability Analysis</li>
@@ -63,11 +63,11 @@ export default function ProjectManagementPage() {
                 <div className="h-48 w-full mb-6 rounded overflow-hidden shadow-sm">
                   <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=400" alt="Feasibility & Analytics" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
-                <h3 className="font-headline-md text-headline-md text-primary mb-stack-sm">Feasibility & Analysis</h3>
-                <p className="font-body-md text-body-md text-primary mb-stack-md">
+                <h3 className="font-headline-md text-headline-md text-blue-900 mb-stack-sm">Feasibility & Analysis</h3>
+                <p className="font-body-md text-body-md text-blue-900 mb-stack-md">
                   Comprehensive evaluation of site conditions, regulatory requirements, and financial modeling to validate project viability.
                 </p>
-                <ul className="space-y-2 font-body-md text-body-md text-primary">
+                <ul className="space-y-2 font-body-md text-body-md text-blue-900">
                   <li className="flex items-start gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-secondary shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5" /></svg> Cost Estimation & Budgeting</li>
                   <li className="flex items-start gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-secondary shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5" /></svg> Risk Assessment Modeling</li>
                   <li className="flex items-start gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-secondary shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5" /></svg> Master Scheduling</li>
@@ -83,10 +83,10 @@ export default function ProjectManagementPage() {
                 <div className="w-12 h-12 bg-construction-orange text-white flex items-center justify-center rounded-sm font-headline-md font-bold">
                   02
                 </div>
-                <h2 className="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary">Construction Phase</h2>
+                <h2 className="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-blue-900">Construction Phase</h2>
               </div>
               <div className="h-[1px] w-full bg-steel-gray/30 mb-stack-md"></div>
-              <p className="font-body-md text-body-md text-primary mb-stack-md">
+              <p className="font-body-md text-body-md text-blue-900 mb-stack-md">
                 Active execution and oversight on-site. We drive progress while enforcing strict adherence to quality, safety, and timeline specifications through robust Project Management Consultancy (PMC).
               </p>
             </div>
@@ -99,19 +99,19 @@ export default function ProjectManagementPage() {
                   <div className="md:col-span-3 p-stack-md">
                     <div className="flex items-center gap-2 mb-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-construction-orange"><path d="m18 11-5.5-5.5a2 2 0 0 0-2.828 0L2 13v7h7l7.672-7.672a2 2 0 0 0 0-2.828Z" /><path d="m15.5 13.5 4.5-4.5a2 2 0 0 0 0-2.828L17.828 4a2 2 0 0 0-2.828 0L10.5 8.5" /></svg>
-                      <h3 className="font-headline-md text-headline-md text-primary">Project Management Consultancy (PMC)</h3>
+                      <h3 className="font-headline-md text-headline-md text-blue-900">Project Management Consultancy (PMC)</h3>
                     </div>
-                    <p className="font-body-md text-body-md text-primary mb-4">
+                    <p className="font-body-md text-body-md text-blue-900 mb-4">
                       Acting as the principal representative, we oversee daily operations, coordinate contractors, and ensure continuous alignment with the strategic roadmap.
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                       <div className="bg-surface p-3 rounded-sm border border-surface-variant">
                         <div className="font-label-sm text-label-sm text-steel-gray uppercase mb-1">Focus Area</div>
-                        <div className="font-body-md text-primary font-medium">Contract Administration</div>
+                        <div className="font-body-md text-blue-900 font-medium">Contract Administration</div>
                       </div>
                       <div className="bg-surface p-3 rounded-sm border border-surface-variant">
                         <div className="font-label-sm text-label-sm text-steel-gray uppercase mb-1">Focus Area</div>
-                        <div className="font-body-md text-primary font-medium">Schedule Enforcement</div>
+                        <div className="font-body-md text-blue-900 font-medium">Schedule Enforcement</div>
                       </div>
                     </div>
                   </div>
@@ -120,15 +120,15 @@ export default function ProjectManagementPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-gutter">
                 <div className="bg-surface-container-lowest p-stack-md border border-surface-container-highest rounded-sm shadow-sm hover:shadow-[0_4px_20px_rgba(0,43,91,0.08)] transition-shadow duration-300 border-t-4 border-t-construction-orange">
                   <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-construction-orange mb-6"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="m9 12 2 2 4-4" /></svg>
-                  <h3 className="font-headline-md text-headline-md text-primary mb-stack-sm">Quality Assurance (QA/QC)</h3>
-                  <p className="font-body-md text-body-md text-primary">
+                  <h3 className="font-headline-md text-headline-md text-blue-900 mb-stack-sm">Quality Assurance (QA/QC)</h3>
+                  <p className="font-body-md text-body-md text-blue-900">
                     Implementing strict inspection protocols and material testing to guarantee all structural and aesthetic elements meet specified standards.
                   </p>
                 </div>
                 <div className="bg-surface-container-lowest p-stack-md border border-surface-container-highest rounded-sm shadow-sm hover:shadow-[0_4px_20px_rgba(0,43,91,0.08)] transition-shadow duration-300 border-t-4 border-t-construction-orange">
                   <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-construction-orange mb-6"><path d="M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v2z" /><path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5" /><path d="M4 15v-3a6 6 0 0 1 6-6h0" /><path d="M14 6h0a6 6 0 0 1 6 6v3" /></svg>
-                  <h3 className="font-headline-md text-headline-md text-primary mb-stack-sm">HSE Supervision</h3>
-                  <p className="font-body-md text-body-md text-primary">
+                  <h3 className="font-headline-md text-headline-md text-blue-900 mb-stack-sm">HSE Supervision</h3>
+                  <p className="font-body-md text-body-md text-blue-900">
                     Enforcing Health, Safety, and Environment protocols to maintain a zero-incident culture and ensure regulatory compliance on site.
                   </p>
                 </div>
@@ -143,10 +143,10 @@ export default function ProjectManagementPage() {
                 <div className="w-12 h-12 bg-secondary text-white flex items-center justify-center rounded-sm font-headline-md font-bold">
                   03
                 </div>
-                <h2 className="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary">Post-Construction</h2>
+                <h2 className="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-blue-900">Post-Construction</h2>
               </div>
               <div className="h-[1px] w-full bg-steel-gray/30 mb-stack-md"></div>
-              <p className="font-body-md text-body-md text-primary mb-stack-md">
+              <p className="font-body-md text-body-md text-blue-900 mb-stack-md">
                 Ensuring a seamless transition from construction to occupancy. We manage the final detailed inspections, documentation, and formal handover processes.
               </p>
             </div>
@@ -154,8 +154,8 @@ export default function ProjectManagementPage() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="md:col-span-1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-secondary mb-6"><path d="m9 11 3 3L22 4" /><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" /></svg>
-                  <h3 className="font-headline-md text-headline-md text-primary mb-4">Final Verification</h3>
-                  <p className="font-body-md text-body-md text-primary">
+                  <h3 className="font-headline-md text-headline-md text-blue-900 mb-4">Final Verification</h3>
+                  <p className="font-body-md text-body-md text-blue-900">
                     Comprehensive auditing of the completed structure against original blueprints and contractual obligations.
                   </p>
                 </div>
@@ -165,8 +165,8 @@ export default function ProjectManagementPage() {
                       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-secondary"><rect width="8" height="4" x="8" y="2" rx="1" ry="1" /><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" /><path d="M12 11h4" /><path d="M12 16h4" /><path d="M8 11h.01" /><path d="M8 16h.01" /></svg>
                     </div>
                     <div>
-                      <h4 className="font-body-lg text-body-lg text-primary font-medium mb-1">Snagging & Defect Resolution</h4>
-                      <p className="font-body-md text-body-md text-primary text-sm">Identification, documentation, and managed rectification of all minor defects prior to practical completion certification.</p>
+                      <h4 className="font-body-lg text-body-lg text-blue-900 font-medium mb-1">Snagging & Defect Resolution</h4>
+                      <p className="font-body-md text-body-md text-blue-900 text-sm">Identification, documentation, and managed rectification of all minor defects prior to practical completion certification.</p>
                     </div>
                   </div>
                   <div className="flex gap-4 p-4 bg-surface rounded-sm border border-surface-variant">
@@ -174,8 +174,8 @@ export default function ProjectManagementPage() {
                       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-secondary"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /><path d="M14 2v4a2 2 0 0 0 2 2h4" /><path d="m9 15 2 2 4-4" /></svg>
                     </div>
                     <div>
-                      <h4 className="font-body-lg text-body-lg text-primary font-medium mb-1">Handover & Documentation</h4>
-                      <p className="font-body-md text-body-md text-primary text-sm">Compilation of As-Built drawings, O&M manuals, warranties, and training coordination for facility management teams.</p>
+                      <h4 className="font-body-lg text-body-lg text-blue-900 font-medium mb-1">Handover & Documentation</h4>
+                      <p className="font-body-md text-body-md text-blue-900 text-sm">Compilation of As-Built drawings, O&M manuals, warranties, and training coordination for facility management teams.</p>
                     </div>
                   </div>
                 </div>

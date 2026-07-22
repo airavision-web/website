@@ -34,7 +34,7 @@ export default function ImageGallery({ images, title = "Gallery" }: ImageGallery
 
   return (
     <div className="w-full">
-      <h2 className="text-3xl font-bold text-primary mb-8 text-center">{title}</h2>
+      <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">{title}</h2>
       
       {/* Grid of thumbnail images */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -61,7 +61,7 @@ export default function ImageGallery({ images, title = "Gallery" }: ImageGallery
             {/* Close Button */}
             <button
               onClick={closeImage}
-              className="absolute top-4 right-4 text-white hover:text-primary transition z-10"
+              className="absolute top-4 right-4 text-white hover:text-blue-900 transition z-10"
             >
               <X size={32} />
             </button>
@@ -69,7 +69,7 @@ export default function ImageGallery({ images, title = "Gallery" }: ImageGallery
             {/* Previous Button */}
             <button
               onClick={handlePrevious}
-              className="absolute left-4 text-white hover:text-primary transition"
+              className="absolute left-4 text-white hover:text-blue-900 transition"
             >
               <ChevronLeft size={40} />
             </button>
@@ -92,7 +92,7 @@ export default function ImageGallery({ images, title = "Gallery" }: ImageGallery
             {/* Next Button */}
             <button
               onClick={handleNext}
-              className="absolute right-4 text-white hover:text-primary transition"
+              className="absolute right-4 text-white hover:text-blue-900 transition"
             >
               <ChevronRight size={40} />
             </button>

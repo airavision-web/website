@@ -12,7 +12,7 @@ export default function GalleryPage() {
         </p>
       </div>
       <div className="max-w-container-max mx-auto px-margin-desktop py-stack-lg">
-        <p className="text-body-lg text-primary">Gallery grid goes here...</p>
+        <p className="text-body-lg text-blue-900">Gallery grid goes here...</p>
       </div>
     </div>
   );

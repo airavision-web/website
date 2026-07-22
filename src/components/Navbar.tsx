@@ -18,35 +18,35 @@ export default function Navbar() {
           </Link>
         <div className="hidden md:flex items-center gap-8">
 
-          <Link href="/about" className="text-primary py-1 text-base font-medium transition-colors duration-200 ease-in-out hover:text-construction-orange">
+          <Link href="/about" className="text-blue-900 py-1 text-base font-medium transition-colors duration-200 ease-in-out hover:text-construction-orange">
             About Us
           </Link>
           
           {/* Services Dropdown */}
           <div className="relative group py-1">
-            <button className="text-primary text-base font-medium transition-colors duration-200 flex items-center gap-1 group-hover:text-construction-orange">
+            <button className="text-blue-900 text-base font-medium transition-colors duration-200 flex items-center gap-1 group-hover:text-construction-orange">
               Services <ChevronDown className="w-5 h-5" />
             </button>
             <div className="absolute top-full left-0 mt-2 w-64 bg-white border border-steel-gray/20 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-              <Link href="/services/project-management" className="block px-4 py-2 text-base font-medium text-primary hover:bg-slate-50 hover:text-construction-orange transition-colors">
+              <Link href="/services/project-management" className="block px-4 py-2 text-base font-medium text-blue-900 hover:bg-slate-50 hover:text-construction-orange transition-colors">
                 Project Management Consultancy
               </Link>
-              <Link href="/services/home-inspection" className="block px-4 py-2 text-base font-medium text-primary hover:bg-slate-50 hover:text-construction-orange transition-colors border-t border-steel-gray/10">
+              <Link href="/services/home-inspection" className="block px-4 py-2 text-base font-medium text-blue-900 hover:bg-slate-50 hover:text-construction-orange transition-colors border-t border-steel-gray/10">
                 Flat Evaluation
               </Link>
-              <Link href="/services/interior-designing" className="block px-4 py-2 text-base font-medium text-primary hover:bg-slate-50 hover:text-construction-orange transition-colors border-t border-steel-gray/10">
+              <Link href="/services/interior-designing" className="block px-4 py-2 text-base font-medium text-blue-900 hover:bg-slate-50 hover:text-construction-orange transition-colors border-t border-steel-gray/10">
                 Interior Designing
               </Link>
             </div>
           </div>
 
-          <Link href="/projects" className="text-primary py-1 text-base font-medium transition-colors duration-200 ease-in-out hover:text-construction-orange">
+          <Link href="/projects" className="text-blue-900 py-1 text-base font-medium transition-colors duration-200 ease-in-out hover:text-construction-orange">
             Projects
           </Link>
-          <Link href="/gallery" className="text-primary py-1 text-base font-medium transition-colors duration-200 ease-in-out hover:text-construction-orange">
+          <Link href="/gallery" className="text-blue-900 py-1 text-base font-medium transition-colors duration-200 ease-in-out hover:text-construction-orange">
             Gallery
           </Link>
-          <Link href="/certifications" className="text-primary py-1 text-base font-medium transition-colors duration-200 ease-in-out hover:text-construction-orange">
+          <Link href="/certifications" className="text-blue-900 py-1 text-base font-medium transition-colors duration-200 ease-in-out hover:text-construction-orange">
             Certifications
           </Link>
         </div>
@@ -58,7 +58,7 @@ export default function Navbar() {
         
         {/* Mobile menu toggle */}
         <button 
-          className="md:hidden text-primary p-2"
+          className="md:hidden text-blue-900 p-2"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
@@ -69,13 +69,13 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-white border-t border-steel-gray/20 absolute w-full left-0 top-full shadow-lg h-[calc(100vh-73px)] overflow-y-auto">
           <div className="flex flex-col px-6 py-4 space-y-4 pb-8">
-            <Link href="/about" className="text-primary py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>About</Link>
-            <Link href="/services/project-management" className="text-primary py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Project Management</Link>
-            <Link href="/services/home-inspection" className="text-primary py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Flat Evaluation</Link>
-            <Link href="/services/interior-designing" className="text-primary py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Interior Designing</Link>
-            <Link href="/projects" className="text-primary py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Projects</Link>
-            <Link href="/gallery" className="text-primary py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Gallery</Link>
-            <Link href="/certifications" className="text-primary py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Certifications</Link>
+            <Link href="/about" className="text-blue-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>About</Link>
+            <Link href="/services/project-management" className="text-blue-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Project Management</Link>
+            <Link href="/services/home-inspection" className="text-blue-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Flat Evaluation</Link>
+            <Link href="/services/interior-designing" className="text-blue-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Interior Designing</Link>
+            <Link href="/projects" className="text-blue-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Projects</Link>
+            <Link href="/gallery" className="text-blue-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Gallery</Link>
+            <Link href="/certifications" className="text-blue-900 py-2 text-lg font-bold border-b border-gray-100" onClick={() => setIsOpen(false)}>Certifications</Link>
             <Link href="/contact" className="bg-construction-orange text-white px-6 py-4 text-center font-bold uppercase mt-2" onClick={() => setIsOpen(false)}>Contact Us</Link>
           </div>
         </div>
