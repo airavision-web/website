@@ -107,9 +107,9 @@ export default function CertificationsPage() {
                   <p className="font-body-md text-sm text-white">Consistent track record of meeting critical path deadlines.</p>
                 </div>
                 <div className="bg-surface-container-lowest border border-surface-container-highest p-6 rounded-sm border-t-4 border-blueprint-blue shadow-sm">
-                  <div className="font-display-lg text-display-lg text-blue-900 mb-2">10+</div>
-                  <div className="font-headline-md text-headline-md text-blue-900 mb-2 text-lg">Years LTI Free</div>
-                  <p className="font-body-md text-sm text-blue-900">Uncompromising commitment to zero Lost Time Incidents.</p>
+                  <div className="font-display-lg text-display-lg text-blue-900 mb-2">100%</div>
+                  <div className="font-headline-md text-headline-md text-blue-900 mb-2 text-lg">Safety Compliance</div>
+                  <p className="font-body-md text-sm text-blue-900">Strict adherence to all safety protocols on every site.</p>
                 </div>
               </div>
             </div>
