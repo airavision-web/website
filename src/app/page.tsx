@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Network, ClipboardCheck, Paintbrush, ShieldCheck, Target, Monitor, HeadphonesIcon, Calendar, Handshake, Hand, Check, BadgeCheck } from "lucide-react";
+import { Network, ClipboardCheck, Paintbrush, ShieldCheck, Target, Monitor, HeadphonesIcon, Calendar, Handshake, Hand, Check, BadgeCheck, Award, Leaf, ShieldPlus, Briefcase } from "lucide-react";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         
         {/* Full-width background image */}
         <div 
-          className="absolute inset-0 z-0 bg-cover bg-[50%_65%]"
+          className="absolute inset-0 z-0 bg-cover bg-[50%_25%]"
           style={{ backgroundImage: "url('/assets/construction_site.webp')" }}
         ></div>
 
@@ -38,7 +38,7 @@ export default function Home() {
               Helping homeowners, builders, and developers make confident decisions through expert inspections, quality assurance, and project oversight.
             </p>
             
-            <div className="flex w-full justify-center mt-2">
+            <div className="flex justify-start w-full mt-2 ml-8 md:ml-16">
               <Link href="/contact" className="bg-[#ea580c] hover:bg-[#c2410c] text-white px-8 py-4 text-[13px] font-bold tracking-widest uppercase text-center transition-colors rounded shadow-sm flex items-center justify-center gap-2">
                 SCHEDULE INSPECTION <Calendar className="w-4 h-4" />
               </Link>
@@ -48,23 +48,43 @@ export default function Home() {
       </section>
 
       {/* Features Bar */}
-      <section className="bg-primary text-white py-10 relative z-20 shadow-sm">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-white/20">
-          <div className="flex items-center justify-center gap-4 px-4">
-            <Target className="w-10 h-10 text-white" strokeWidth={1.5} />
-            <div className="font-semibold text-[15px] tracking-wide uppercase">Accuracy</div>
+      <section className="bg-primary py-6 relative z-20 shadow-sm">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-left mb-6">
+            <h2 className="text-xl md:text-2xl font-bold text-white/90">Certified for Quality & Excellence</h2>
           </div>
-          <div className="flex items-center justify-center gap-4 px-4">
-            <img src="/assets/integrity_icon.png" alt="Integrity" className="w-10 h-10 object-contain invert opacity-90 mix-blend-screen" />
-            <div className="font-semibold text-[15px] tracking-wide uppercase">Integrity</div>
-          </div>
-          <div className="flex items-center justify-center gap-4 px-4">
-            <Handshake className="w-10 h-10 text-white" strokeWidth={1.5} />
-            <div className="font-semibold text-[15px] tracking-wide uppercase">Reliability</div>
-          </div>
-          <div className="flex items-center justify-center gap-4 px-4">
-            <img src="/assets/assurance_icon_clean.png?v=2" alt="Assurance" className="w-10 h-10 object-contain opacity-90" />
-            <div className="font-semibold text-[15px] tracking-wide uppercase">Assurance</div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 flex flex-col items-center justify-center text-center hover:-translate-y-1.5 hover:bg-white/10 hover:border-[#ea580c]/30 hover:shadow-[0_8px_30px_rgba(234,88,12,0.15)] transition-all duration-300">
+              <div className="w-10 h-10 rounded-full bg-[#ea580c]/10 border border-[#ea580c]/20 flex items-center justify-center mb-2 group-hover:scale-110 group-hover:bg-[#ea580c]/20 transition-all duration-300">
+                <Award className="w-5 h-5 text-[#ea580c]" strokeWidth={1.5} />
+              </div>
+              <div className="font-bold text-[14px] text-white/90 tracking-wide uppercase mb-1">ISO 9001:2015</div>
+              <div className="font-medium text-[12px] text-white/60 leading-tight">Quality Management System</div>
+            </div>
+
+            <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 flex flex-col items-center justify-center text-center hover:-translate-y-1.5 hover:bg-white/10 hover:border-[#ea580c]/30 hover:shadow-[0_8px_30px_rgba(234,88,12,0.15)] transition-all duration-300">
+              <div className="w-10 h-10 rounded-full bg-[#ea580c]/10 border border-[#ea580c]/20 flex items-center justify-center mb-2 group-hover:scale-110 group-hover:bg-[#ea580c]/20 transition-all duration-300">
+                <Leaf className="w-5 h-5 text-[#ea580c]" strokeWidth={1.5} />
+              </div>
+              <div className="font-bold text-[14px] text-white/90 tracking-wide uppercase mb-1">ISO 14001:2015</div>
+              <div className="font-medium text-[12px] text-white/60 leading-tight">Environmental Management</div>
+            </div>
+
+            <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 flex flex-col items-center justify-center text-center hover:-translate-y-1.5 hover:bg-white/10 hover:border-[#ea580c]/30 hover:shadow-[0_8px_30px_rgba(234,88,12,0.15)] transition-all duration-300">
+              <div className="w-10 h-10 rounded-full bg-[#ea580c]/10 border border-[#ea580c]/20 flex items-center justify-center mb-2 group-hover:scale-110 group-hover:bg-[#ea580c]/20 transition-all duration-300">
+                <ShieldPlus className="w-5 h-5 text-[#ea580c]" strokeWidth={1.5} />
+              </div>
+              <div className="font-bold text-[14px] text-white/90 tracking-wide uppercase mb-1">ISO 45001:2018</div>
+              <div className="font-medium text-[12px] text-white/60 leading-tight">Occupational Health & Safety</div>
+            </div>
+
+            <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 flex flex-col items-center justify-center text-center hover:-translate-y-1.5 hover:bg-white/10 hover:border-[#ea580c]/30 hover:shadow-[0_8px_30px_rgba(234,88,12,0.15)] transition-all duration-300">
+              <div className="w-10 h-10 rounded-full bg-[#ea580c]/10 border border-[#ea580c]/20 flex items-center justify-center mb-2 group-hover:scale-110 group-hover:bg-[#ea580c]/20 transition-all duration-300">
+                <Briefcase className="w-5 h-5 text-[#ea580c]" strokeWidth={1.5} />
+              </div>
+              <div className="font-bold text-[14px] text-white/90 tracking-wide uppercase mb-1">PMP Certified</div>
+              <div className="font-medium text-[12px] text-white/60 leading-tight">Project Management Professional</div>
+            </div>
           </div>
         </div>
       </section>
@@ -127,7 +147,7 @@ export default function Home() {
             <div className="bg-white rounded-xl p-8 flex flex-col justify-center shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] lg:col-span-2 lg:row-span-1">
               <div className="flex gap-6 items-start">
                 <div className="h-14 w-14 bg-orange-50 rounded-full flex items-center justify-center shrink-0">
-                  <Paintbrush className="w-7 h-7 text-[#ea580c]" strokeWidth={1.5} />
+                  <Paintbrush className="w-5 h-5 text-[#ea580c]" strokeWidth={1.5} />
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-blue-900 mb-4">Interior Design & Execution</h3>
@@ -149,7 +169,7 @@ export default function Home() {
             <div className="bg-white rounded-xl p-8 flex flex-col justify-center shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] lg:col-span-2 lg:row-span-1">
               <div className="flex gap-6 items-start">
                 <div className="h-14 w-14 bg-blue-50 rounded-full flex items-center justify-center shrink-0 border border-blue-100">
-                  <ClipboardCheck className="w-7 h-7 text-blue-900" strokeWidth={1.5} />
+                  <ClipboardCheck className="w-5 h-5 text-blue-900" strokeWidth={1.5} />
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-blue-900 mb-4">Home Handover Inspections</h3>

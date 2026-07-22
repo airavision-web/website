@@ -51,32 +51,31 @@ export default function Footer() {
               <li>
                 <Link href="/services/home-inspection" className="hover:text-white transition">Flat Evaluation</Link>
               </li>
+              <li>
+                <Link href="/services/interior-designing" className="hover:text-white transition">Interior Designing</Link>
+              </li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-6">Contact Us</h4>
-            <div className="space-y-5 text-base">
-              <div className="flex items-center space-x-2 text-white/80">
-                <Phone size={18} className="text-construction-orange shrink-0" />
-                <div>
-                  <span>+91 9550234556</span><br />
-                  <span>+91 7671010806</span>
-                </div>
+            <h4 className="text-lg font-semibold text-white mb-6 ml-[32px]">Contact Us</h4>
+            <div className="grid grid-cols-[24px_1fr] gap-x-2 gap-y-5 text-base text-white/80 items-start">
+              <Phone size={18} className="text-construction-orange mt-1" />
+              <div>
+                <span>+91 7671010806</span><br />
+                <span>+91 9550234556</span>
               </div>
-              <div className="flex items-center space-x-2 text-white/80">
-                <Mail size={18} className="text-construction-orange shrink-0" />
-                <a href="mailto:airavision.av@gmail.com" className="hover:text-white transition">airavision.av@gmail.com</a>
-              </div>
-              <div className="flex items-start space-x-2 text-white/80">
-                <MapPin size={18} className="mt-1 text-construction-orange shrink-0" />
-                <span className="leading-tight">
-                  Plot No: 608, Vaibhava Lakshmi Nilayam-2,<br />
-                  Aparna Hill Park Road, Chandanagar,<br />
-                  Hyderabad, Telangana, India-500050
-                </span>
-              </div>
+              
+              <Mail size={18} className="text-construction-orange mt-1" />
+              <a href="mailto:airavision.av@gmail.com" className="hover:text-white transition mt-0.5">airavision.av@gmail.com</a>
+              
+              <MapPin size={18} className="text-construction-orange mt-1" />
+              <span className="leading-tight mt-0.5">
+                Plot No: 608, Vaibhava Lakshmi Nilayam-2,<br />
+                Aparna Hill Park Road, Chandanagar,<br />
+                Hyderabad, Telangana, India-500050
+              </span>
             </div>
           </div>
         </div>

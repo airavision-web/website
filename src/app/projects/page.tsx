@@ -10,9 +10,7 @@ export default function ProjectsPage() {
   return (
     <main className="flex-grow">
       {/* Hero Section */}
-      <section className="relative bg-surface-container-highest py-stack-lg border-b border-outline-variant/30 overflow-hidden">
-        {/* Background Texture */}
-        <div className="absolute inset-0 opacity-5" style={{ backgroundImage: "repeating-linear-gradient(45deg, #001736 0, #001736 1px, transparent 1px, transparent 10px)" }}></div>
+      <section className="relative bg-surface-container-low pt-16 pb-12 px-margin-mobile md:px-margin-desktop border-b border-surface-container-high overflow-hidden">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
           <div className="max-w-3xl">
             <p className="font-label-sm text-label-sm text-construction-orange uppercase tracking-widest mb-stack-sm flex items-center gap-2">

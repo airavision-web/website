@@ -3,14 +3,21 @@ import { CheckCircle } from "lucide-react";
 export default function Services() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      {/* ponytail: solid industrial colors, heavy borders, bold caps */}
-      <section className="bg-slate-900 text-white py-24 border-b-8 border-construction-orange">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6">Flat Evaluation</h1>
-          <p className="text-xl text-blue-900 font-medium max-w-2xl">
-            Comprehensive flat evaluation and inspection solutions
-          </p>
+      {/* Page Header (Aligned with other pages) */}
+      <section className="bg-surface-container-low pt-16 pb-12 px-margin-mobile md:px-margin-desktop border-b border-surface-container-high">
+        <div className="max-w-container-max mx-auto">
+          <div className="max-w-3xl">
+            <p className="font-label-sm text-label-sm text-construction-orange uppercase tracking-wider mb-stack-sm flex items-center gap-2">
+              <span className="w-8 h-[1px] bg-construction-orange inline-block"></span>
+              Flat Evaluation
+            </p>
+            <h1 className="font-headline-lg-mobile text-headline-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-stack-md">
+              Flat Evaluation Services
+            </h1>
+            <p className="font-body-lg text-body-lg text-primary">
+              Comprehensive flat evaluation and inspection solutions
+            </p>
+          </div>
         </div>
       </section>
 
