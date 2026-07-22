@@ -20,7 +20,7 @@ export default function ProjectsPage() {
               Our Expertise
             </p>
             <h1 className="font-display-lg text-[40px] md:text-display-lg font-bold text-primary mb-stack-md leading-tight">Sectors &amp; Portfolio</h1>
-            <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            <p className="font-body-lg text-body-lg text-primary max-w-2xl">
               Delivering structural integrity and operational excellence across diverse built environments. Our portfolio reflects a commitment to precision, scalable infrastructure, and enduring architectural quality.
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function ProjectsPage() {
                     <Building2 className="text-blueprint-blue w-6 h-6" />
                     Commercial &amp; Institutional
                   </h3>
-                  <p className="text-on-surface-variant font-body-md text-body-md mb-stack-md max-w-4xl">
+                  <p className="text-primary font-body-md text-body-md mb-stack-md max-w-4xl">
                     High-performance commercial centers and specialized institutional facilities engineered for functionality and wellbeing. We focus on optimizing usable space, energy efficiency, and meeting rigorous compliance for modern educational and institutional environments.
                   </p>
                 </div>
@@ -72,7 +72,7 @@ export default function ProjectsPage() {
                   <Factory className="text-safety-yellow w-6 h-6" />
                   Industrial &amp; Infrastructure
                 </h3>
-                <p className="text-on-primary/80 font-body-md text-body-md mb-stack-md">
+                <p className="text-white font-body-md text-body-md mb-stack-md">
                   Robust structural frameworks and heavy-duty infrastructure designed to withstand operational stress and support logistical efficiency at scale.
                 </p>
                 <Link href="/services/project-management" className="flex items-center text-safety-yellow font-label-sm text-label-sm uppercase tracking-wider group-hover:text-white transition-colors cursor-pointer w-max">

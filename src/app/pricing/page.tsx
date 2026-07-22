@@ -64,10 +64,10 @@ export default function Pricing() {
                     : "bg-gray-50 border border-gray-200"
                 }`}
               >
-                <h3 className={`text-2xl font-bold mb-2 ${plan.featured ? "" : "text-gray-900"}`}>
+                <h3 className={`text-2xl font-bold mb-2 ${plan.featured ? "" : "text-primary"}`}>
                   {plan.name}
                 </h3>
-                <p className={`mb-4 ${plan.featured ? "text-blue-100" : "text-gray-600"}`}>
+                <p className={`mb-4 ${plan.featured ? "text-blue-100" : "text-primary"}`}>
                   {plan.description}
                 </p>
                 <div className="mb-6">
@@ -102,13 +102,13 @@ export default function Pricing() {
       {/* Additional Info */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+          <h2 className="text-3xl font-bold text-primary mb-8 text-center">
             Pricing Information
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">What's Included</h3>
-              <ul className="space-y-3 text-gray-600">
+              <h3 className="text-xl font-semibold text-primary mb-4">What's Included</h3>
+              <ul className="space-y-3 text-primary">
                 <li>✓ Professional certified inspectors</li>
                 <li>✓ Detailed written report</li>
                 <li>✓ High-quality photos</li>
@@ -117,8 +117,8 @@ export default function Pricing() {
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Additional Services</h3>
-              <ul className="space-y-3 text-gray-600">
+              <h3 className="text-xl font-semibold text-primary mb-4">Additional Services</h3>
+              <ul className="space-y-3 text-primary">
                 <li>Handover Inspection: +₹15,000</li>
                 <li>Quality Audits: +₹20,000</li>
                 <li>Risk Management: +₹25,000</li>

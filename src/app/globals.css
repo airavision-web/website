@@ -3,7 +3,7 @@
 @theme inline {
   /* Colors */
   --color-background: #f9f9fc;
-  --color-on-background: #1a1c1e;
+  --color-on-background: #001736; /* ponytail: navy override */
   --color-primary: #001736;
   --color-on-primary: #ffffff;
   --color-primary-container: #002b5b;
@@ -23,9 +23,9 @@
   --color-outline: #747780;
   --color-outline-variant: #c4c6d0;
   --color-surface: #f9f9fc;
-  --color-on-surface: #1a1c1e;
+  --color-on-surface: #001736; /* ponytail: navy override */
   --color-surface-variant: #e2e2e5;
-  --color-on-surface-variant: #43474f;
+  --color-on-surface-variant: #001736; /* ponytail: navy override */
   --color-inverse-surface: #2f3133;
   --color-inverse-on-surface: #f0f0f3;
   --color-inverse-primary: #a9c7ff;
@@ -102,5 +102,5 @@
 
 body {
   background-color: var(--color-background);
-  color: var(--color-on-background);
+  color: #1e3a8a;
 }

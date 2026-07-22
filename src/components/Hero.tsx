@@ -26,7 +26,7 @@ export default function Hero() {
               </Link>
               <Link
                 href="/services"
-                className="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-slate-900 transition"
+                className="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition"
               >
                 Learn More
               </Link>

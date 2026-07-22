@@ -15,7 +15,7 @@ export default function AboutPage() {
             </h1>
             <div className="w-16 h-1 bg-blueprint-blue"></div>
           </div>
-          <p className="font-body-lg text-body-lg text-on-surface-variant max-w-lg">
+          <p className="font-body-lg text-body-lg text-primary max-w-lg">
             At AIRA, we verify that every aspect of your project is executed with the right quality, approved specifications, and timely completion.
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function AboutPage() {
               </div>
               <h3 className="font-headline-md text-headline-md text-primary">Our Mission</h3>
             </div>
-            <p className="font-body-md text-body-md text-on-surface-variant flex-grow">
+            <p className="font-body-md text-body-md text-primary flex-grow">
               Our mission is to bring transparency, quality, and accountability to every construction project by providing independent inspections, accurate quantity verification, and expert technical guidance, ensuring every promise made is delivered with confidence.
             </p>
           </div>
@@ -59,7 +59,7 @@ export default function AboutPage() {
               </div>
               <h3 className="font-headline-md text-headline-md text-primary">Our Vision</h3>
             </div>
-            <p className="font-body-md text-body-md text-on-surface-variant flex-grow">
+            <p className="font-body-md text-body-md text-primary flex-grow">
               To become the most trusted construction quality partner by delivering reliable inspections, technical expertise, and unbiased verification that help build safer and better structures.
             </p>
           </div>
@@ -81,7 +81,7 @@ export default function AboutPage() {
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600"><circle cx="12" cy="8" r="7" /><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" /></svg>
             </div>
             <h4 className="font-headline-md text-[20px] leading-tight text-primary mb-2 font-normal"><strong className="font-black">A</strong>ccuracy</h4>
-            <p className="font-body-md text-sm text-on-surface-variant">
+            <p className="font-body-md text-sm text-primary">
               Rigorous QA processes and uncompromising standards ensure every phase of construction meets exacting specifications.
             </p>
           </div>
@@ -91,7 +91,7 @@ export default function AboutPage() {
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-blueprint-blue"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1.3.5 2.6 1.5 3.5.8.8 1.3 1.5 1.5 2.5" /><path d="M9 18h6" /><path d="M10 22h4" /></svg>
             </div>
             <h4 className="font-headline-md text-[20px] leading-tight text-primary mb-2 font-normal"><strong className="font-black">I</strong>ntegrity</h4>
-            <p className="font-body-md text-sm text-on-surface-variant">
+            <p className="font-body-md text-sm text-primary">
               Leveraging modern technology, BIM, and advanced analytics to optimize workflows and predict structural outcomes.
             </p>
           </div>
@@ -101,7 +101,7 @@ export default function AboutPage() {
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-teal-600"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" /><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" /></svg>
             </div>
             <h4 className="font-headline-md text-[20px] leading-tight text-primary mb-2 font-normal"><strong className="font-black">R</strong>eliability</h4>
-            <p className="font-body-md text-sm text-on-surface-variant">
+            <p className="font-body-md text-sm text-primary">
               Dedicated to responsible development practices that minimize environmental impact and maximize long-term asset value.
             </p>
           </div>
@@ -111,7 +111,7 @@ export default function AboutPage() {
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-construction-orange"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
             </div>
             <h4 className="font-headline-md text-[20px] leading-tight text-primary mb-2 font-normal"><strong className="font-black">A</strong>ssurance</h4>
-            <p className="font-body-md text-sm text-on-surface-variant">
+            <p className="font-body-md text-sm text-primary">
               Fostering open communication and ethical practices with all stakeholders to build enduring professional trust.
             </p>
           </div>
@@ -132,7 +132,7 @@ export default function AboutPage() {
             <img src="/assets/Shiva.webp" alt="Shiva - Founder & CEO" className="w-full aspect-[4/5] object-cover object-top" />
             <div className="p-stack-sm text-center border-t border-[#E2E8F0]">
               <h4 className="font-headline-md text-lg font-bold text-primary mb-1">Shiva</h4>
-              <p className="font-body-sm text-on-surface-variant text-sm">Founder & CEO</p>
+              <p className="font-body-sm text-primary text-sm">Founder & CEO</p>
             </div>
           </div>
           {/* Manoj */}
@@ -140,7 +140,7 @@ export default function AboutPage() {
             <img src="/assets/Manoj.webp" alt="Manoj - Co-Founder & COO" className="w-full aspect-[4/5] object-cover object-top" />
             <div className="p-stack-sm text-center border-t border-[#E2E8F0]">
               <h4 className="font-headline-md text-lg font-bold text-primary mb-1">Manoj</h4>
-              <p className="font-body-sm text-on-surface-variant text-sm">Co-Founder & COO</p>
+              <p className="font-body-sm text-primary text-sm">Co-Founder & COO</p>
             </div>
           </div>
           {/* Vikas Manda */}
@@ -148,7 +148,7 @@ export default function AboutPage() {
             <img src="/assets/vikas_manda.webp" alt="Vikas Manda - Director, Technical Services" className="w-full aspect-[4/5] object-cover object-top" />
             <div className="p-stack-sm text-center border-t border-[#E2E8F0]">
               <h4 className="font-headline-md text-lg font-bold text-primary mb-1">Vikas Manda</h4>
-              <p className="font-body-sm text-on-surface-variant text-sm capitalize">Director, Technical Services</p>
+              <p className="font-body-sm text-primary text-sm capitalize">Director, Technical Services</p>
             </div>
           </div>
           {/* Venkata Krishna Paramkusham */}
@@ -156,7 +156,7 @@ export default function AboutPage() {
             <img src="/assets/Venkata_krishna.webp" alt="Venkata Krishna Paramkusham - Director, Business Operations & Finance" className="w-full aspect-[4/5] object-cover object-top" />
             <div className="p-stack-sm text-center border-t border-[#E2E8F0]">
               <h4 className="font-headline-md text-[17px] font-bold text-primary mb-1">Venkata Krishna Paramkusham</h4>
-              <p className="font-body-sm text-on-surface-variant text-sm capitalize">Director, Business Operations &amp; Finance</p>
+              <p className="font-body-sm text-primary text-sm capitalize">Director, Business Operations &amp; Finance</p>
             </div>
           </div>
         </div>

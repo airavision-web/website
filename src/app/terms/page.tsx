@@ -9,12 +9,12 @@ export default function TermsPage() {
       <h1 className="font-display-lg text-display-lg md:text-display-lg font-bold text-primary mb-stack-md">
         Terms & Conditions
       </h1>
-      <div className="prose max-w-none text-on-surface-variant font-body-lg space-y-4">
+      <div className="prose max-w-none text-primary font-body-lg space-y-4">
         <p><strong>Last updated:</strong> {new Date().toLocaleDateString()}</p>
         <p>
           By accessing and using Aira Vision's website and services, you agree to comply with and be bound by the following terms and conditions of use.
         </p>
-        <p className="italic text-gray-500">
+        <p className="italic text-primary">
           {/* ponytail: placeholder content for terms */}
           Detailed terms and conditions content goes here. Please provide the official legal text to replace this placeholder.
         </p>
